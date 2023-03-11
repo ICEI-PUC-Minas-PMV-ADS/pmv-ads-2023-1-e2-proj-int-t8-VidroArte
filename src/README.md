@@ -1,4 +1,4 @@
-# Instruções de utilização
+# Instruções de utilização.
 
 ## Instalação do Site
 
