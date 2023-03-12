@@ -6,7 +6,7 @@
 
 `SEMESTRE 2º Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Na era digital de hoje, o software desempenha um papel crucial na gestão eficaz de uma empresa. O projeto visa criar um sistema para gestão permite que a empresa automatize seus processos de vendas, simplifique suas operações e obtenha informações valiosas sobre seus dados. 
 
 ## Integrantes
 
