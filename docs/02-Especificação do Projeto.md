@@ -48,15 +48,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|RF-01| O sistema deve permitir cadastrar novos clientes | ALTA | 
+|RF-02| O sistema deve permitir fazer login com usuário e senha | ALTA |
+|RF-03|O sistema deve calcular, de acordo com o pedido do cliente, o valor a ser pago |ALTA|
+|RF-04|O sistema enviará um email/whatsapp de confirmação do pedido e informação sobre seu status |MÉDIA|
+|RF-05|O sistema informará a produção os novos pedidos que entraram |ALTA|
+|RF-06|O sistema vai gerar um relatório de controle contábil diário |ALTA|
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001|O site deve ser compatível com todos os navegadores   | ALTA | 
+|RNF-002|A interface do usuário será uma aplicação web e WhatsApp do cliente   |  MÉDIA |
+|RNF-003| O sistema deve ter criptografia de informações sigilosas do cliente |ALTA|
+|RNF-004| O sistema terá um melhor desempenho utilizado o navegador Chrome, melhor confiabilidade |ALTA|
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -79,8 +84,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O projeto deverá ser entregue até o final do semestre letivo, não podendo extrapolar a data de 19/06/2023|
+|02| O aplicativo deve se restringir às tecnologias básicas da Web no Backend         |
+|03| A equipe não pode subcontratar o desenvolvimento do trabalho. |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
