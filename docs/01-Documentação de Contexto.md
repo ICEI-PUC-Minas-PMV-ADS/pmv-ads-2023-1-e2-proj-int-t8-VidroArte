@@ -9,16 +9,10 @@ Além disso, o software também pode ajudar a empresa a tomar decisões informad
 Concluindo, a ausência de um software como esse, além de gerar uma desvantagem em relação aos concorrentes, traz também diversos problemas para a empresa que impactam seu crescimento e lucratividade. Portanto, investir nessa ferramenta é uma decisão sábia, que pode ajudar o negócio a otimizar suas operações e se manter competitivo no mercado.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Partindo do princípio de que as instituições estão cada vez mais globalizadas e presentes em diversos territórios temos a criação de um cenário cada vez mais competitivo. Nesse contexto, as empresas que se modernizam e investem em tecnologias tem alcançado os melhores resultados. 
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Dessa forma, visando agir na adaptabilidade organizacional das empresas aos meios tecnológicos, o problema que se busca resolver com este projeto é o aperfeiçoamento do gerenciamento dos processos da empresa (faturamento, estoque e pedidos) utilizando ferramentas de tecnologia da informação. 
 
 ## Objetivos
 
