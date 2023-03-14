@@ -16,7 +16,7 @@ Dessa forma, visando agir na adaptabilidade organizacional das empresas aos meio
 
 ## Objetivos
 
-O objetivo geral deste trabalho é a criação de uma aplicação que possibilite a empresa organizar seus processos de cadastro faturamento, pedidos e estoque, através do cadastro realizados pelos operadores do sistema (usuários), com a finalidade de otimizar o tempo dos processos, evitando perda de produtividade, obtendo maior organização e segurança e resultando em maiores redução de custos para a instituição. 
+O objetivo geral deste trabalho é a criação de uma aplicação que possibilite a empresa organizar seus processos de faturamento, pedidos e estoque, através do cadastro realizados pelos operadores do sistema (usuários), com a finalidade de otimizar o tempo dos processos, evitando perda de produtividade, obtendo maior organização e segurança e resultando em maiores redução de custos para a instituição. 
 
 Como objetivos específicos, podemos ressaltar: 
 
