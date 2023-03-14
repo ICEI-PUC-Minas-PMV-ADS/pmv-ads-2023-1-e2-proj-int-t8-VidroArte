@@ -31,9 +31,9 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Nosso sistema de gestão é justificado por sua capacidade de melhorar a eficiencia, produtividade e lucratividade da empresa. A criação do software ajuda a automatizar processos através de uma plataforma centralizada, onde é possível gerenciar dados e informações importantes, permitindo que os gestores tomem decisões mais precisas e estratégicas.
+<br> <br>
+Outra justificativa visa em melhorar a satisfação do cliente, a empresa pode ajustar seus processos para atender as demandas do mnercado, fornecendo assim uma melhor experiência e entregando um serviço mais eficiente ao usuário. 
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
