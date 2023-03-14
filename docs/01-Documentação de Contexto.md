@@ -32,5 +32,5 @@ Outra justificativa visa em melhorar a satisfação do cliente, a empresa pode a
 
 ## Público-Alvo
 
-O desenvolvimento do sistema tem como foco responsáveis pela produção  fabricação e venda de produtos, que precisam de ferramentas para gerenciar recursos, programar tarefas e monitorar o progresso da produção. E também automatizar ainda mais o trabalho dos gestores de finanças que precisam gerenciar o fluxo de caixa e o inventário da empresa.
+O desenvolvimento do sistema tem como foco: Responsáveis pela produção, fabricação e venda de produtos, que precisam de ferramentas para gerenciar recursos, programar tarefas e monitorar o progresso da produção. E também automatizar ainda mais o trabalho dos gestores de finanças que precisam gerenciar o fluxo de caixa e o inventário da empresa.
 
