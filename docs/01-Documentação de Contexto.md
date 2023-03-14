@@ -29,8 +29,6 @@ Nosso sistema de gestão é justificado por sua capacidade de melhorar a eficien
 <br> <br>
 Outra justificativa visa em melhorar a satisfação do cliente, a empresa pode ajustar seus processos para atender as demandas do mnercado, fornecendo assim uma melhor experiência e entregando um serviço mais eficiente ao usuário. 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
