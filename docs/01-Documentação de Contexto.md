@@ -16,12 +16,17 @@ Dessa forma, visando agir na adaptabilidade organizacional das empresas aos meio
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é a criação de uma aplicação que possibilite a empresa organizar seus processos de cadastro faturamento, pedidos e estoque, através do cadastro realizados pelos operadores do sistema (usuários), com a finalidade de otimizar o tempo dos processos, evitando perda de produtividade, obtendo maior organização e segurança e resultando em maiores redução de custos para a instituição. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos ressaltar: 
+
+● Cadastrar, editar e excluir clientes; 
+
+● Cadastro, edição e exclusão de pedidos; 
+
+● Calcular preço de venda de produtos e definição de seus prazos para de entrega; 
+
+● Cadastrar, editar e excluir produtos e serviços; 
 
 ## Justificativa
 
