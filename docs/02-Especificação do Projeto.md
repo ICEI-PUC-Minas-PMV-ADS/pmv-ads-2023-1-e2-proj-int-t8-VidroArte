@@ -28,10 +28,16 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|ícaro Silva |  conseguir controlar os pedidos diariamente         | realizar o controle contábil diário           |
+|ícaro Silva | visualizar qual funcionário(a) realizou os pedidos  |entender a produtividade de cada vendedor |
+|ícaro Silva |O relatório de todas as vendas | para calcular o faturamento do mês |
+|Kelly Cristina|Fazer login para solicitar o pedido do meu cliente|conseguir medir suas vendas|
+|Kelly Cristina| acompanhar o pedido do cliente|conseguir realizar um atendimento completo e eficiente|
+|Kelly Cristina|cadastrar novos clientes|para manter um registro atualizado dos clientes|
+|Renan Oliveira|receber a entrada dos pedidos diariamente|conseguir se programar para a produção de pedidos, em questão de organização dos espaços|
+|Renan Oliveira|consultar os relatórios com as demandas| para consultar o estoque de materiais|
+|Renan Oliveira|um sistema que permita monitorar todos os fluxos de caixa da empresa | garantir que sempre temos dinheiro o suficiente para arcar com os custos operacionais da empresa|
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
