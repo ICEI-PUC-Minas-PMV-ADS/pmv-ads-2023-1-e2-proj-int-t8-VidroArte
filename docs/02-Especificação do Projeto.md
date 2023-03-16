@@ -8,9 +8,41 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+| IMAGEM | Ícaro Silva   38 anos                                                                               |
+| ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+| Ocupação                                                                                                                 | Engenheiro civil, com boa experiência em desenvolvimento de sistemas, sócio e gestor de uma empresa de jateamento de vidros                                                                                          |
+| Aplicativos preferidos                                                                                                   | Instagram, Whatsapp, linkedin e aplicativos de bancos                                                                   |
+| Motivações                                                                                                               | Trabalhar com seu próprio negócioe desenvolver o sistema ultilizado na sua empresa              |
+| Seus Hobbies                                                                                                             |   Gosta de praticar esportes, gosta de desenvolver sistemas                                                                              |
+| Frustrações?                                                                                                             | Se desgastou com a situação atual da sua área de formação 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+
+<br><br>
+| IMAGEM | Kelly Cristina    32 anos                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+| Ocupação                                                                                                                 |    vendedora da empresa de jateamento de vidro                                                                                      |
+| Aplicativos preferidos                                                                                                   | Instagram, Whatsapp, Twitter e facebook                                                                   |
+| Motivações                                                                                                               | Gosta do muito do setor de vendas e gosta de metas desafiadoras              |
+| Seus Hobbies                                                                                                             |  Gosta de fazer cursos de vendas, gosta de cinema                                                                              |
+| Frustrações?                                                                                                             | gostaria de obter mais alcance com suas vendas num sistema mais autônomo
+
+<br><br>
+
+
+| IMAGEM | Renan Oliveira 45 anos                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+| Ocupação                                                                                                                 |    Formado em administração e sócio da empresa de jateamento de vidro, na qual atua na parte da produção                                                                                      |
+| Aplicativos preferidos                                                                                                   | Linkedin,WhatsApp, Aplicativos de bancos                                                                  |
+| Motivações                                                                                                               |Trabalhar com seu próprio negócio e ter liberdade para atuar na área que mais gosta               |
+| Seus Hobbies                                                                                                             |  Designer Gráfico, Desenho                                                                               |
+| Frustrações?                                                                                                             | Se desgastou com a situação atual da sua área de formação 
+
+
+
+
+
+
+
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
