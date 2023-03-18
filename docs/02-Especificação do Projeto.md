@@ -100,3 +100,5 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 ## Diagrama de Casos de Uso
 
 ![IMG-20230317-WA0056](https://user-images.githubusercontent.com/113618051/226076482-d39f74b1-82e0-4758-ab7b-b687a92189d4.jpg)
+<br><br><br>
+![Sistema Cadastro Novo](https://user-images.githubusercontent.com/113618051/226076600-953f045b-6f59-4cba-af92-cfe16de731e9.jpg) 
