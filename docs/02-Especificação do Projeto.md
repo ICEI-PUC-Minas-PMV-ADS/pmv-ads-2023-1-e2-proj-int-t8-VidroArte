@@ -106,3 +106,6 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 ## Lógica de Negócio
 
 ![fluxograma1](https://user-images.githubusercontent.com/115122394/226200159-1c084cc8-ad42-4cbc-9834-3868cd816a7f.jpg)
+
+## Relatórios
+
