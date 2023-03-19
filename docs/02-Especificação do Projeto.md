@@ -105,3 +105,4 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 
 ## Lógica de Negócio
 
+![FLUXOGRAMA.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-t8-grp2/files/11012008/FLUXOGRAMA.pdf)
