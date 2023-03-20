@@ -111,4 +111,5 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 
 ![Relatorio02](https://user-images.githubusercontent.com/115122394/226218552-512bc080-d978-4ea2-9ebb-1c08597863e3.jpg)
 
+<br><br>
 <img width="543" alt="relatorio01" src="https://user-images.githubusercontent.com/115122394/226218604-a6c2b671-3d31-4db2-9664-95b7096e5753.png">
