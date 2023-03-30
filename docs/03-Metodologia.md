@@ -55,17 +55,18 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 A equipe está organizada da seguinte maneira:
 
-●	Scrum Master: Rafaella Belisário
+●	Scrum Master:  
+ Rafaella Belisário
 
-●	Product Owner: Hebert Eustaquio De Almeida Sandinha
+●	Product Owner:  
+ Hebert Eustaquio De Almeida Sandinha
 
-●	Equipe de Desenvolvimento:
+●	Equipe de Desenvolvimento:  
  Henrique de Brito Leite   
- 
  Lucas Reis Alves
 
-●	Equipe de Design:
- Elves Teixeira Dias
+●	Equipe de Design:  
+ Elves Teixeira Dias  
  Maria Luiza Goncalves De Sousa
 
 
