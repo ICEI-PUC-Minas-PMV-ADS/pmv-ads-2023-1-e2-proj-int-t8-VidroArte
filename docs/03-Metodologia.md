@@ -54,14 +54,19 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 
 A equipe está organizada da seguinte maneira:
-●	Scrum Master: Felipe Domingos
-●	Product Owner: Rommel Carneiro
-●	Equipe de Desenvolvimento
-○	Pedro Penna
-○	Pedro Ivo
-○	Rodrigo Richard
-●	Equipe de Design
-○	Simone Nogueira
+
+●	Scrum Master: Rafaella Belisário
+
+●	Product Owner: Hebert Eustaquio De Almeida Sandinha
+
+●	Equipe de Desenvolvimento:
+ Henrique de Brito Leite
+ Lucas Reis Alves
+
+●	Equipe de Design:
+ Elves Teixeira Dias
+ Maria Luiza Goncalves De Sousa
+
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
 
