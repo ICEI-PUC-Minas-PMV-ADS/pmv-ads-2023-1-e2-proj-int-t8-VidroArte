@@ -70,17 +70,21 @@ A equipe está organizada da seguinte maneira:
  Maria Luiza Goncalves De Sousa
 
 
-Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub Projects estruturado com as seguintes listas: 
 
+Product Backlog: recebe as tarefas a serem trabalhadas. Todas as atividades identificadas no decorrer do projeto devem ser incorporadas a esta lista.  
+To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.   
+In Progress: Quando uma tarefa tiver sido iniciada, ela é movida para lá.   
+Done: Nesta lista são colocadas as tarefas que já foram finalizadas.
+
+O quadro com as tarefas do grupo no Projects GitHub pode ser consultado através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/315/views/1 e é apresentado, no estado atual, na figura abaixo.
+
+   (figura projects github)
+   
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+Os membros do grupo distribuiram as tarefas para que o trabalho fosse desenvolvido de forma mais ágil e eficiente, mas durante as reuniões agendadas todos conseguiram participar de todas as fases do desenvolvimento do projeto.
 
 ### Processo
 
