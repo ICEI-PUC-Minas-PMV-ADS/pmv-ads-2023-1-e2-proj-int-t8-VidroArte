@@ -60,7 +60,8 @@ A equipe está organizada da seguinte maneira:
 ●	Product Owner: Hebert Eustaquio De Almeida Sandinha
 
 ●	Equipe de Desenvolvimento:
- Henrique de Brito Leite
+ Henrique de Brito Leite   
+ 
  Lucas Reis Alves
 
 ●	Equipe de Design:
