@@ -64,14 +64,7 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 
 A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-01| O sistema deve permitir cadastrar novos clientes | ALTA | 
-|RF-02| O sistema deve permitir fazer login com usuário e senha | ALTA |
-|RF-03|O sistema deve calcular, de acordo com o pedido do cliente, o valor a ser pago |ALTA|
-|RF-04|O sistema enviará um email/whatsapp de confirmação do pedido e informação sobre seu status |MÉDIA|
-|RF-05|O sistema informará a produção os novos pedidos que entraram |ALTA|
-|RF-06|O sistema vai gerar um relatório de controle contábil diário |ALTA|
+![tabela corrigida](https://user-images.githubusercontent.com/115122394/228999625-c9a7cd13-c5e8-43d7-8332-1d84bf08f17c.JPG)
 
 ### Requisitos não Funcionais
 
