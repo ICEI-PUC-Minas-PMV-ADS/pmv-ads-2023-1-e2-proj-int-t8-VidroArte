@@ -18,6 +18,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 **Por exemplo:**
 
 | **Caso de Teste** 	| **CT-01 – Efetuar login**	|
+|:---:	|:---:	|
 |Requisito Associado | RF-03	- O sistema deve permitir fazer login com usuário e senha do vendedor. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site **https://adota-pet.herokuapp.com/src/index.html**<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail?????? <br> - Preencher o campo da senha <br> - Clicar em "Login" |
