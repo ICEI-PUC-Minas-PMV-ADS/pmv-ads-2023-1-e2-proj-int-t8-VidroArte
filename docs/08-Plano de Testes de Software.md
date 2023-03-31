@@ -25,16 +25,17 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-002 - O sistema deve permitir cadastrar novos clientes. |
 | Objetivo do Teste 	| Verificar se o usuário consegue cadastrar novos clientes na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site **https://**<br> - Clicar em "Cadastrar Cliente" <br> - Preencher os campos obrigatórios **(e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha)** <br> - **Aceitar os termos de uso** <br> - Clicar em "Cadastrar" |
+| Passos 	| - Acessar o navegador    
+- Informar o endereço do site **https://**<br> - Clicar em "Cadastrar Cliente" <br> - Preencher os campos obrigatórios **(e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha)** <br> - **Aceitar os termos de uso** <br> - Clicar em "Cadastrar" |
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |     
 
 
 
 | **Caso de Teste** 	| **CT-03 – Cadastrar e Calcular Pedido do Cliente e Prazo de Entrega**	|
 |:---:	|:---:	|
-|Requisito Associado | RF-004	- O sistema deve possuir opção de cadastrar pedido do cliente.  
- RF-005 O sistema deve permitir calcular, de acordo com o pedido do cliente, o preço de venda do produto.   
- RF-006 O sistema deve permitir calcular o prazo de entrega do pedido do cliente|
+|Requisito Associado | RF-004	- O sistema deve possuir opção de cadastrar pedido do cliente.|  
+|Requisito Associado | RF-005 O sistema deve permitir calcular, de acordo com o pedido do cliente, o preço de venda do produto.|   
+|Requisito Associado | RF-006 O sistema deve permitir calcular o prazo de entrega do pedido do cliente.|
 | Objetivo do Teste 	| Verificar se o usuário consegue cadastrar pedido do cliente. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site **https://**<br> - Buscar pelo Cliente que irá fazer o pedido - Clicar no botão "Cadastrar Pedido" <br> - Selecionar os serviços solicitados, preenchendo com os valores de quantidade para cada serviço <br> - Clicar em "Finalizar Pedido" |
 |Critério de Êxito | - O pedido foi cadastrado com sucesso. |     
