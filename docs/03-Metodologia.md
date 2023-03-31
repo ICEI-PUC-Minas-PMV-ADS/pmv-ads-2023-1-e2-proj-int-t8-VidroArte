@@ -79,8 +79,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 O quadro com as tarefas do grupo no Projects GitHub pode ser consultado através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/315/views/1 e é apresentado, no estado atual, na figura abaixo.
 
-   (figura projects github)
-   
+![Tela Projects GitHub](https://user-images.githubusercontent.com/115122394/228994070-504ad674-a0cd-441f-b254-2794a1bec1b9.JPG)   
 
 ### Divisão de Papéis
 
