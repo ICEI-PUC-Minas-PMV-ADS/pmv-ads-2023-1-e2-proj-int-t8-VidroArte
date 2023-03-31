@@ -55,27 +55,27 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 A equipe está organizada da seguinte maneira:
 
-●	Scrum Master:  
+●	**Scrum Master**:  
  Rafaella Belisário
 
-●	Product Owner:  
+●	**Product Owner**:  
  Hebert Eustaquio De Almeida Sandinha
 
-●	Equipe de Desenvolvimento:  
+●	**Equipe de Desenvolvimento**:  
  Henrique de Brito Leite   
  Lucas Reis Alves
 
-●	Equipe de Design:  
+●	**Equipe de Design**:  
  Elves Teixeira Dias  
  Maria Luiza Goncalves De Sousa
 
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub Projects estruturado com as seguintes listas: 
 
-Product Backlog: recebe as tarefas a serem trabalhadas. Todas as atividades identificadas no decorrer do projeto devem ser incorporadas a esta lista.  
-To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.   
-In Progress: Quando uma tarefa tiver sido iniciada, ela é movida para lá.   
-Done: Nesta lista são colocadas as tarefas que já foram finalizadas.
+**Product Backlog**: recebe as tarefas a serem trabalhadas. Todas as atividades identificadas no decorrer do projeto devem ser incorporadas a esta lista.  
+**To Do**: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.   
+**In Progress**: Quando uma tarefa tiver sido iniciada, ela é movida para lá.   
+**Done**: Nesta lista são colocadas as tarefas que já foram finalizadas.
 
 O quadro com as tarefas do grupo no Projects GitHub pode ser consultado através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/315/views/1 e é apresentado, no estado atual, na figura abaixo.
 
