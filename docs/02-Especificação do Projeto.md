@@ -64,7 +64,15 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 
 A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
-![tabela corrigida](https://user-images.githubusercontent.com/115122394/228999625-c9a7cd13-c5e8-43d7-8332-1d84bf08f17c.JPG)
+|ID     | Descrição do Requisito  |Prioridade |
+|-------|-------------------------|----|
+|RNF-001| O sistema deve permitir fazer login com usuário e senha do vendedor   | ALTA | 
+|RNF-002| O sistema deve permitir cadastrar novos clientes   |  MÉDIA |
+|RNF-003| O sistema deve permitir atualizar os dados dos clientes, deletar clientes e pesquisar por clientes já cadastrados |ALTA|
+|RNF-004| O sistema deve permitir realizar o cadastro de pedido do cliente |ALTA|  
+|RNF-005| O sistema deve permitir calcular, de acordo com o pedido do cliente, o preço de venda do produto |ALTA|
+|RNF-006| O sistema deve permitir calcular o prazo de entrega do pedido do cliente |ALTA|
+
 
 ### Requisitos não Funcionais
 
