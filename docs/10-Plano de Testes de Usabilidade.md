@@ -6,7 +6,22 @@ Protocolo do Teste de Usabilidade
 
 * **Preparação:**    
 
+Definir tarefas para os participantes executarem
+Definir o perfil dos participantes e recrutá-los
+Preparar material para observar e registrar o uso
+Executar um teste-piloto
 
+* **Coleta de Dados:**
+
+Observar e registrar a performance e a opinião dos participantes durante as sessões de uso controladas
+
+* **Interpretação e Consolidação dos Resultados:**
+
+Reunir, contabilizar e sumarizar os dados coletados dos participantes
+
+* **Relato dos Resultados:**
+
+Relatar a performance e a opinião dos participantes
 
 
 
