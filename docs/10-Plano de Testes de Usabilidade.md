@@ -1,6 +1,12 @@
 # Plano de Testes de Usabilidade
 
-O teste de usabilidade que iremos utilizar é um método de avaliação por observação, que permite avaliar a qualidade da interface com o usuário do sistema.
+O teste de usabilidade que iremos utilizar é um método de avaliação por observação, que permite avaliar a qualidade da interface com o usuário do sistema. O principal objetivo é observar usuários reais usando o sistema para identificar problemas e possibilidades de melhorias.
+
+Protocolo do Teste de Usabilidade 
+
+* **Preparação:**    
+
+
 
 
 
