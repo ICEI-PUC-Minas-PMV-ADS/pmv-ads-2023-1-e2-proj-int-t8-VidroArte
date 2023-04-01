@@ -21,8 +21,18 @@ Reunir, contabilizar e sumarizar os dados coletados dos participantes
 
 * **Relato dos Resultados:**
 
-Relatar a performance e a opinião dos participantes
+Relatar a performance e a opinião dos participantes    
 
+No caso específico do nosso sistema, os participantes irão executar as seguintes tarefas:   
+
+- longin de usuário/vendedor   
+- cadastro de novos clientes   
+- Busca de clientes já cadastrados, atualização de dados de clientes já cadastrados e remoção de clientes já cadastrados   
+- Cadastro de pedido do cliente
+- Calcular pedido do cliente   
+- Calcular prazo de entrega do pedido do cliente
+
+Os nossos participantes serão os funcionários da empresa para a qual estamos desenvolvendo o sistema. No caso dos requisitos funcionais especificados iremos avaliar em especial os vendedores que trabalham na empresa.
 
 
 
