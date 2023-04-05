@@ -19,8 +19,9 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
 Ferramenta para geração deste artefato: LucidChart.
 
-<img width="420" height="300" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-VidroArte/blob/main/docs/img/Diagrama%20ER.png">
-
+<p align="center">
+<img width="700" height="300" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-VidroArte/blob/main/docs/img/Diagrama%20ER.png">
+</p>
 
 ## Projeto da Base de Dados
 
