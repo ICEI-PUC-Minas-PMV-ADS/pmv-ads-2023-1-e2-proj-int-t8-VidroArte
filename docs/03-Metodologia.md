@@ -9,9 +9,9 @@ A metodologia contempla as definições de ferramental utilizado pela equipe tan
 
 *Repositório de código Fonte |GitHub| https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-VidroArte
 
-*Documentos do Projeto |
+*Documentos do Projeto | Google Drive | https://drive.google.com/drive/folders/1-6rtJkMlswNACmbWzMfF00e-pDvjxX9u
 
-*Projeto de Interface e Wireframes |
+*Projeto de Interface e Wireframes | https://marvelapp.com/prototype/1982i90j
 
 *Gerenciamento do Projeto |GitHub| https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-VidroArte/projects?query=is%3Aopen
 
