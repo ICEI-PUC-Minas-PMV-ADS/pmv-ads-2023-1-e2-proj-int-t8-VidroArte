@@ -25,7 +25,7 @@ A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
 foi utilizado para hospedagem do repositório.
 
-O modelo Gitflow é um fluxo de trabalho popular que utiliza várias branches para gerenciar o desenvolvimento de software com Git. O este modelo ajuda a manter uma estrutura organizada para o desenvolvimento de software, garantindo que todas as alterações de código sejam feitas nas branches corretas e que as mesclagens sejam feitas de forma adequada e controlada.   
+O modelo Gitflow é um fluxo de trabalho popular que utiliza várias branches para gerenciar o desenvolvimento de software com Git. Este modelo ajuda a manter uma estrutura organizada para o desenvolvimento de software, garantindo que todas as alterações de código sejam feitas nas branches corretas e que as mesclagens sejam feitas de forma adequada e controlada.   
 
 O projeto segue a seguinte convenção para o nome de branches:
 
