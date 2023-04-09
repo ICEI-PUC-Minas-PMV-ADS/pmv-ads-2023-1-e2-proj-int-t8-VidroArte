@@ -24,13 +24,3 @@ Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
 navegação principal do site (menu da aplicação);                                                                                                                                                                                                                                                                                                   
 ● Conteúdo - apresenta o conteúdo da tela em questão;                                                                                                                                                                                                                                                                                                                   
 ![pi](https://user-images.githubusercontent.com/113618051/230780871-e00cd473-9f28-469f-b8f4-f5a185e979a0.JPG)                                                                        
-
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
