@@ -35,5 +35,5 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+Como ambiente de hospedagem do site do projeto optamos pela plataforma GitHub Pages. A publicação foi realizada por comandos via git para o repositório que pode ser acessado através do endereço:.
 
