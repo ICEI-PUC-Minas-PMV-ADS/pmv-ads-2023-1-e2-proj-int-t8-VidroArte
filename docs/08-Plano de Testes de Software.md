@@ -25,7 +25,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-002 - O sistema deve permitir cadastrar novos clientes. |
 | Objetivo do Teste 	| Verificar se o usuário consegue cadastrar novos clientes no sistema. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Cadastrar Cliente" <br> - Preencher os campos obrigatórios (CPF/CNPJ, contato responsável, e-mail, telefone fixo, celular, endereço)** <br> - Clicar em "Cadastrar" |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Cadastrar Cliente" <br> - Preencher os campos obrigatórios (CPF/CNPJ, contato responsável, e-mail, telefone fixo, celular, endereço) <br> - Clicar em "Cadastrar" |
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |     
 
 
