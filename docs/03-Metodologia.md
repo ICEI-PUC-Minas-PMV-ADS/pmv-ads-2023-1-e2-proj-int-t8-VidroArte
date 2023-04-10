@@ -81,11 +81,10 @@ A equipe estipulou e distribui as tarefas a serem realizadas a cada etapa e as o
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código: Visual Code
-- Ferramentas de comunicação: Whatsapp e Temas
+- Editor de código: Visual Studio
+- Ferramentas de comunicação: Whatsapp e Teams
 - Ferramentas de desenho de tela (_wireframing_)  
-- Ferramentas para Diagrama
-- 
+- Ferramentas para Diagrama : Astah e Power Architect
 
 O editor de código foi escolhido por possuir uma integração com o sistema de versão e em função de ser um programa de fácil acesso a todos do grupo.  
 As ferramentas de comunicação utilizadas foram as que os integrantes do grupo já estavam acostumados, por serem mais práticas e usuais.
