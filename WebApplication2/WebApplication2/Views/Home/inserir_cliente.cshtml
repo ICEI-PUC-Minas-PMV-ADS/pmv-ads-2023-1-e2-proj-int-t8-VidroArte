@@ -34,17 +34,15 @@
 
             <h3><span class="material-symbols-outlined">person_add</span> CADASTRO DE CLIENTE</h3><br /><br /><br />
             <label>
-                <input type="radio" name="cnpjcpf" checked="checked" value="2">
-                <i class="helper"></i>CNPJ
-            </label>
+                <input type="radio"  name="cnpjcpf" value="cnpj" checked="checked" onfocus="validarRadio()">Pessoa Juridica
+            </label>&emsp;
             <label>
-                <input type="radio" name="cnpjcpf" value="1">
-                <i class="helper"></i>CPF
-            </label>
+                <input type="radio"  name="cnpjcpf" value="cpf" onfocus="validarRadio()">Pessoa Fisica
+            </label><br /><br />
             <label>
                 <input type="checkbox" class="js-medium" id="cadbanco" name="cadbanco" />
                 <i class="helper"></i>Dados Bancarios
-            </label>
+            </label><br /><br />
 
             <label>
                 <input type="checkbox" class="js-medium" id="sistema" name="sistema" />
@@ -55,8 +53,8 @@
 
             <input type="text" id="nome" name="nome" class="form-control form-control-round" placeholder="Nome Completo" size="50">
 
-            <input type="text" id="cpf-Cnpj" name="cpf-Cnpj" class="form-control form-control-round" placeholder="CNPJ / CPF" size="16" oninput="mascaraCpfCnpj(this)" onblur="validarCpfCnpj(this.value)" required>
-            <div id="msgErro"></div>
+            <input type="text" id="cpf-Cnpj" name="cpf-Cnpj" class="form-control form-control-round" placeholder="CNPJ / CPF" size="16" oninput="mascaraCpfCnpj(this)" onblur="validarCpfCnpj(this.value)">
+
             <input type="text" id="inscestadual" name="inscestadual" class="form-control form-control-round" placeholder="Inscrição Estadual" size="18">
 
             <input type="text" id="responsavel" name="responsavel" class="form-control form-control-round" placeholder="Contato Responsavel">
