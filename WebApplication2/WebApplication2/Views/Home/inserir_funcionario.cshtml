@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="~/css/style.css">
     <script src="~/js/mask.js"></script>
     <script src="~/js/cep.js"></script>
+    <script src="~/js/valida.js"></script>
 
 </head>
 <body>
@@ -26,7 +27,7 @@
 
             <input type="text" id="nome" name="nome" class="form-control form-control-round" placeholder="Nome Completo" size="50">
 
-            <input type="text" id="cpf" name="cpf" class="form-control form-control-round" placeholder="CPF" size="16" onblur="validarCPF(this)">
+            <input type="text" id="cpf-Cnpj" name="cpf-Cnpj" class="form-control form-control-round" placeholder="CPF" size="16" oninput="mascaraCpfCnpj(this)" onblur="validarCpfCnpj(this.value)" maxlength="14" minlength="14">
 
             <input type="text" id="rg" name="rg" class="form-control form-control-round" placeholder="RG" size="18">
 

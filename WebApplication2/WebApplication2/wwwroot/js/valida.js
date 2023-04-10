@@ -1,17 +1,5 @@
 ﻿function validarCpfCnpj(valor) {
-    var dados= valor.replace(/[^\d]+/g, '');
-
-    var tipo = document.querySelector('input[name=cnpjcpf]:checked').value;
-
-    if ((tipo == "cpf") && (dados.length == 14)) {
-        alert('Favor informar um cpf ou selecionar que está informando dados de pessoa Juridica ');
-        document.getElementById("cpf-Cnpj").value = '';
-    }
-    else if ((tipo == "cnpj") && (dados.length == 11)) {
-        alert('Favor informar um cnpj ou selecionar que está informando dados de pessoa Fisica');
-        document.getElementById("cpf-Cnpj").value = '';
-    }
-    else {
+    var dados = valor.replace(/[^\d]+/g, '')
             // Valida CPF
             if (dados.length == 11) {
                 var allEqual = true;
@@ -117,10 +105,27 @@
                     }
                  }
                     
-        }
-      
+     
 }
 
+
+function Verificacheck(valor) {
+    var tipo = document.querySelector('input[name=cnpjcpf]:checked').value;
+    var dados = valor.replace(/[^\d]+/g, '')
+
+    if ((tipo == "cpf") && (dados.length == 14)) {
+        alert('Favor informar um cpf ou selecionar que está informando dados de pessoa Juridica ');
+        document.getElementById("cpf-Cnpj").value = '';
+    }
+    else if ((tipo == "cnpj") && (dados.length == 11)) {
+        alert('Favor informar um cnpj ou selecionar que está informando dados de pessoa Fisica');
+        document.getElementById("cpf-Cnpj").value = '';
+    }
+    else {
+        validarCpfCnpj(dados);
+
+    }
+}
 
 $(document).ready(function () {
     $('input:radio[name="cnpjcpf"]').on("change", function () {
