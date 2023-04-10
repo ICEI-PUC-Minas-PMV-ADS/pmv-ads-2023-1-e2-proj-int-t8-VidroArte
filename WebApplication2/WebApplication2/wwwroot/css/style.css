@@ -1,0 +1,31 @@
+
+.area_cadastro {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 10px 40px #808080;
+    position: absolute;
+    top: 80px;
+    left: 300px;
+}
+
+.erro-cpf-cnpj {
+    color: red;
+}
+
+input[style*="border-color: red"] {
+    border-color: red;
+}
+h3 {
+    display: inline-block;
+    font: normal normal normal 20px/1 FontAwesome;
+    font-size: 25px; 
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: #4099ff;
+    box-sizing: border-box;
+}
