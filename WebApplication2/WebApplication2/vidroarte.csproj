@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Home\login.cshtml" />
     <Content Remove="wwwroot\js\Class.cs" />
   </ItemGroup>
 

@@ -20,7 +20,7 @@
 });
 $(document).ready(function () {
     $('input:radio[name="cnpjcpf"]').on("change", function () {
-        if (this.checked && this.value == '1') {
+        if (this.checked && this.value == 'cpf') {
             $("#nome, #rg, #dtnascimento").show();
             $("#inscestadual, #ufinsc, #razaosocial, #responsavel").hide();
             $('#nome').prop('required', true);

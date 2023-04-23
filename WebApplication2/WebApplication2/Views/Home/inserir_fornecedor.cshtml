@@ -1,6 +1,9 @@
 ﻿@{
     ViewData["Title"] = "Inserir novo Cliente";
 }
+@{
+    Layout = "_Layout";
+}
 <head>
 
     <!-- Google Fonts -->
@@ -20,7 +23,6 @@
     <div class="area_cadastro">
         <form method="post" action="validacao.php">
 
-
             <h3><span class="material-symbols-outlined">local_shippingadd</span> CADASTRO DE FORNECEDOR</h3><br /><br />
             <br /><br />
             <input type="text" id="razaosocial" name="razaosocial" class="form-control form-control-round" placeholder="Razão Social" size="50">
@@ -29,11 +31,7 @@
 
             <input type="text" id="inscestadual" name="inscestadual" class="form-control form-control-round" placeholder="Inscrição Estadual" size="18">
 
-            <input type="text" id="responsavel" name="responsavel" class="form-control form-control-round" placeholder="Contato Responsavel">
-
-            <input type="text" id="rg" name="rg" class="form-control form-control-round" placeholder="RG" size="18">
-
-            <input type="text" id="dtnascimento" name="dtnascimento" class="form-control form-control-round" placeholder="Aniversario"><br /><br />
+            <input type="text" id="responsavel" name="responsavel" class="form-control form-control-round" placeholder="Contato Responsavel"><br /><br />
 
             <input type="email" id="email" name="email" class="form-control form-control-round   " placeholder="E-mail" size="50">
 

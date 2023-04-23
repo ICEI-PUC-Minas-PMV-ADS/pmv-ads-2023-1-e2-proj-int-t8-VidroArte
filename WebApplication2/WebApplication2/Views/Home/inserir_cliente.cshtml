@@ -1,6 +1,10 @@
 ﻿@{
     ViewData["Title"] = "Inserir novo Cliente";
 }
+@{
+    Layout = "_Layout";
+}
+
 <head>
 
     <!-- Google Fonts -->
@@ -18,6 +22,7 @@
     <script src="~/js/cep.js"></script>
     <script src="~/js/valida.js"></script>
 
+
 </head>
 <body>
 
@@ -27,16 +32,16 @@
 
             <h3><span class="material-symbols-outlined">person_add</span> CADASTRO DE CLIENTE</h3><br /><br /><br />
             <label>
-                <input type="radio"  name="cnpjcpf" value="cnpj" checked="checked" onfocus="validarRadio()">Pessoa Juridica
+                <input type="radio" name="cnpjcpf" value="cnpj" checked="checked" onfocus="validarRadio()">Pessoa Juridica
             </label>&emsp;
             <label>
-                <input type="radio"  name="cnpjcpf" value="cpf" onfocus="validarRadio()">Pessoa Fisica
-            </label><br /><br />
+                <input type="radio" name="cnpjcpf" value="cpf" onfocus="validarRadio()">Pessoa Fisica
+            </label>&emsp;
             <label>
                 <input type="checkbox" class="js-medium" id="cadbanco" name="cadbanco" />
                 <i class="helper"></i>Dados Bancarios
-            </label><br /><br />
-
+            </label>
+            &emsp;
             <label>
                 <input type="checkbox" class="js-medium" id="sistema" name="sistema" />
                 <i class="helper"></i>Sistema

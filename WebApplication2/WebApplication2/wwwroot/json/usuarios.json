@@ -1,0 +1,33 @@
+  [
+    {
+      "email": "lorenamwon@yahoo.com.br",
+      "nome": "Wondollinger",
+      "senha": "54321",
+      "telefone": "031-98232-4455"
+    },
+    {
+      "email": "carlos@xyz.com.br",
+      "nome": "Carlos Amaral",
+      "senha": "12345",
+      "telefone": "031-97628-3349"
+    },
+    {
+      "email": "rafaella@xyz.com.br",
+      "nome": "Rafaella",
+      "senha": "12345",
+      "telefone": "031-97628-3349"
+    },
+    {
+      "email": "elves@xyz.com.br",
+      "nome": "elves",
+      "senha": "12345",
+      "telefone": "031-97628-3349"
+    },
+    {
+      "email": "hebertsandinha@gmail.com",
+      "nome": "Hebert",
+      "senha": "12345",
+      "telefone": "031-97628-3349"
+    }
+
+]

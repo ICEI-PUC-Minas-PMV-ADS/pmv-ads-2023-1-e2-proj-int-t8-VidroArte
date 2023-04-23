@@ -22,27 +22,7 @@ namespace WebApplication2.Controllers
         {
             return View();
         }
-        public IActionResult inserir_cliente()
-        {
-            return View();
-        }
-        public IActionResult inserir_funcionario()
-        {
-            return View();
-        }
-        public IActionResult inserir_materiais()
-        {
-            return View();
-        }
-        public IActionResult inserir_pedido()
-        {
-            return View();
-        }
-        public IActionResult inserir_servico()
-        {
-            return View();
-        }
-        public IActionResult inserir_fornecedor()
+        public IActionResult Home()
         {
             return View();
         }
@@ -67,6 +47,39 @@ namespace WebApplication2.Controllers
             return View();
         }
         public IActionResult consultar_fornecedor()
+        {
+            return View();
+        }
+
+        public IActionResult inserir_cliente()
+        {
+            return View();
+        }
+        public IActionResult inserir_funcionario()
+        {
+            return View();
+        }
+        public IActionResult inserir_materiais()
+        {
+            return View();
+        }
+        public IActionResult inserir_pedido()
+        {
+            return View();
+        }
+        public IActionResult inserir_orcamento()
+        {
+            return View();
+        }
+        public IActionResult inserir_servico()
+        {
+            return View();
+        }
+        public IActionResult inserir_fornecedor()
+        {
+            return View();
+        }
+        public IActionResult login()
         {
             return View();
         }

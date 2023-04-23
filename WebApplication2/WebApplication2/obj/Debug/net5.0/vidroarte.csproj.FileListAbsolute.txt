@@ -722,7 +722,6 @@ C:\xampp\htdocs\vidroarte\WebApplication2\WebApplication2\obj\Debug\net5.0\Razor
 C:\xampp\htdocs\vidroarte\WebApplication2\WebApplication2\obj\Debug\net5.0\Razor\Views\Home\inserir_materiais.cshtml.g.cs
 C:\xampp\htdocs\vidroarte\WebApplication2\WebApplication2\obj\Debug\net5.0\Razor\Views\Home\inserir_pedido.cshtml.g.cs
 C:\xampp\htdocs\vidroarte\WebApplication2\WebApplication2\obj\Debug\net5.0\Razor\Views\Home\inserir_servico.cshtml.g.cs
-C:\xampp\htdocs\vidroarte\WebApplication2\WebApplication2\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\xampp\htdocs\vidroarte\WebApplication2\WebApplication2\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\xampp\htdocs\vidroarte\WebApplication2\WebApplication2\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\xampp\htdocs\vidroarte\WebApplication2\WebApplication2\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -736,3 +735,5 @@ C:\xampp\htdocs\vidroarte\WebApplication2\WebApplication2\obj\Debug\net5.0\vidro
 C:\xampp\htdocs\vidroarte\WebApplication2\WebApplication2\obj\Debug\net5.0\ref\vidroarte.dll
 C:\xampp\htdocs\vidroarte\WebApplication2\WebApplication2\obj\Debug\net5.0\vidroarte.pdb
 C:\xampp\htdocs\vidroarte\WebApplication2\WebApplication2\obj\Debug\net5.0\vidroarte.genruntimeconfig.cache
+C:\xampp\htdocs\vidroarte\WebApplication2\WebApplication2\obj\Debug\net5.0\Razor\Views\Home\home.cshtml.g.cs
+C:\xampp\htdocs\vidroarte\WebApplication2\WebApplication2\obj\Debug\net5.0\Razor\Views\Home\inserir_orcamento.cshtml.g.cs
