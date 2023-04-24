@@ -1,5 +1,5 @@
 ﻿function validarCpfCnpj(valor) {
-    var dados = valor.replace(/[^\d]+/g, '')
+    var dados = valor.replace(/[^\d]+/g, '');
             // Valida CPF
             if (dados.length == 11) {
                 var allEqual = true;

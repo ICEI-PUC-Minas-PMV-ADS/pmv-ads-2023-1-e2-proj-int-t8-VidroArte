@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="~/css/style.css">
     <script src="~/js/mask.js"></script>
     <script src="~/js/cep.js"></script>
-    <script src="~/js/valida.js"></script>
+    <script src="~/js/validacpfcnjp.js"></script>
 
 </head>
 <body>
@@ -68,6 +68,15 @@
             <input type="password" id="digito" name="digito" class="form-control form-control-round" placeholder="Digito">
 
             <input type="password" id="tipoconta" name="tipoconta" class="form-control form-control-round" placeholder="Tipo Conta">
+
+
+            <br /><br />
+            <p align="center">
+                <button id="salvar" name="salvar" class="btn btn-primary"> Salvar </button>
+                <button id="cancelar" name="cancelar" class="btn btn-primary" onclick="cancelar()"> Cancelar </button>
+
+            </p>
+
 
         </form>
 

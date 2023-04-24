@@ -13,3 +13,10 @@ function mostraSub(menuconsulta) {
     else
         document.getElementById(menuconsulta).style.display = 'block';
 }
+function mostraSub(menurelatorios) {
+    if (document.getElementById(menurelatorios).style.display == 'block')
+        document.getElementById(menurelatorios).style.display = 'none';
+
+    else
+        document.getElementById(menurelatorios).style.display = 'block';
+}

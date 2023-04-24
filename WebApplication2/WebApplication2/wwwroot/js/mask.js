@@ -50,21 +50,44 @@ $(document).ready(function () {
     var $seuCampodtnascimento = $("#fdtcontratacao");
     $seuCampodtnascimento.mask('00/00/0000', { reverse: true });
 });
+
 $(document).ready(function () {
-    var $seuCamposalario = $("#salario");
-    $seuCamposalario.mask('R$ 000.000,00', { reverse: true });
+    var $seuCampoPix = $("#pix");
+    $seuCampoPix.mask('000.000.000,00', { reverse: true }).on('focusout', function () {
+        var valorAtual = $(this).val();
+        if (valorAtual !== "" && !valorAtual.startsWith("R$ ")) {
+            $(this).val('R$ ' + valorAtual);
+        }
+    });
 });
 
 $(document).ready(function () {
-    var $seuCampovalorservico = $("#valorservico");
-    $seuCampovalorservico.mask('000.000.000,00', { reverse: true });
-    $seuCampovalorservico.on('keyup', function (event) {
-        var valor = $(this).val().replace(/\D/g, '');
-        valor = (valor / 100).toFixed(2).replace('.', ',').replace(/(\d)(?=(\d{3})+\,)/g, "$1.");
-        if (valor === '0,00') {
-            $(this).val('');
-        } else {
-            $(this).val('R$ ' + valor);
+    var $seuCampocredito = $("#credito");
+    $seuCampocredito.mask('000.000.000,00', { reverse: true }).on('focusout', function () {
+        var valorAtual = $(this).val();
+        if (valorAtual !== "" && !valorAtual.startsWith("R$ ")) {
+            $(this).val('R$ ' + valorAtual);
+        }
+    });
+});
+
+$(document).ready(function () {
+    var $seuCampodebito = $("#debito");
+    $seuCampodebito.mask('000.000.000,00', { reverse: true }).on('focusout', function () {
+        var valorAtual = $(this).val();
+        if (valorAtual !== "" && !valorAtual.startsWith("R$ ")) {
+            $(this).val('R$ ' + valorAtual);
+        }
+    });
+});
+
+
+$(document).ready(function () {
+    var $seuCampoDinheiro = $("#dinheiro");
+    $seuCampoDinheiro.mask('000.000.000,00', { reverse: true }).on('focusout', function () {
+        var valorAtual = $(this).val();
+        if (valorAtual !== "" && !valorAtual.startsWith("R$ ")) {
+            $(this).val('R$ ' + valorAtual);
         }
     });
 });

@@ -20,7 +20,7 @@
     <script src="~/js/mask.js"></script>
     <script src="~/js/exibir.js"></script>
     <script src="~/js/cep.js"></script>
-    <script src="~/js/valida.js"></script>
+    <script src="~/js/validacpfcnpj.js"></script>
 
 
 </head>
@@ -45,6 +45,11 @@
             <label>
                 <input type="checkbox" class="js-medium" id="sistema" name="sistema" />
                 <i class="helper"></i>Sistema
+            </label>
+            &emsp;
+            <label>
+                <input type="checkbox" class="js-medium" id="mensal" name="mensal" />
+                <i class="helper"></i>Mensal
             </label>
             <br /><br />
             <input type="text" id="razaosocial" name="razaosocial" class="form-control form-control-round" placeholder="Razão Social" size="50">
@@ -97,7 +102,15 @@
 
             <input type="password" id="tipoconta" name="tipoconta" class="form-control form-control-round" placeholder="Tipo Conta">
 
+            <br /><br />
+            <p align="center">
+                <button id="salvar" name="salvar" class="btn btn-primary"> Salvar </button>
+                <button id="cancelar" name="cancelar" class="btn btn-primary" onclick="cancelar()"> Cancelar </button>
+
+            </p>
         </form>
+
+
 
     </div>
 </body>
