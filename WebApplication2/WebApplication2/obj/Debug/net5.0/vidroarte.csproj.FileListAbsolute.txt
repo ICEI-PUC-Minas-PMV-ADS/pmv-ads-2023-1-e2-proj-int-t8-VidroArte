@@ -737,3 +737,4 @@ C:\xampp\htdocs\vidroarte\WebApplication2\WebApplication2\obj\Debug\net5.0\vidro
 C:\xampp\htdocs\vidroarte\WebApplication2\WebApplication2\obj\Debug\net5.0\vidroarte.genruntimeconfig.cache
 C:\xampp\htdocs\vidroarte\WebApplication2\WebApplication2\obj\Debug\net5.0\Razor\Views\Home\home.cshtml.g.cs
 C:\xampp\htdocs\vidroarte\WebApplication2\WebApplication2\obj\Debug\net5.0\Razor\Views\Home\inserir_orcamento.cshtml.g.cs
+C:\xampp\htdocs\vidroarte\WebApplication2\WebApplication2\obj\Debug\net5.0\Razor\Views\Home\mensalista.cshtml.g.cs
