@@ -12,13 +12,7 @@
     left: 290px;
 }
 
-.erro-cpf-cnpj {
-    color: red;
-}
 
-input[style*="border-color: red"] {
-    border-color: red;
-}
 h3 {
     display: inline-block;
     font: normal normal normal 20px/1 FontAwesome;
@@ -52,8 +46,8 @@ input, button {
     margin-top: 1px;
     padding: 2px;
     border: 1px solid #b2b2b2;
-    -webkit-border-radius: 20px;
-    border-radius: 20px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
     -webkit-box-shadow: 0px 1px 1px 0px rgba(168, 168, 168, 0.6) inset;
     box-shadow: 0px 1px 1px 0px rgba(168, 168, 168, 0.6) inset;
     -webkit-transition: all 0.2s linear;
@@ -61,26 +55,62 @@ input, button {
 }
 
 table {
-    border-collapse: collapse;
     width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 900px;
+    border-radius: 50px;
 }
 
 th, td {
-    padding: 10px;
+    padding: 3px;
     text-align: center;
+    border: 1px solid #ccc;
 }
 
 th {
-    background-color: #ddd;
     font-weight: bold;
 }
 
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
 
 tfoot tr {
     background-color: #ddd;
 }
+
+
+
+.btn {
+    display: inline-block;
+    padding: 4px 4px;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.btn-primary:hover {
+        color: #fff;
+        background-color: #286090;
+        border-color: #204d74
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925
+}
+

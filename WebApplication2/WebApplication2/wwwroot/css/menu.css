@@ -87,4 +87,13 @@ html {
 .box-shadow {
     box-shadow: 0 .25rem .75rem #384f65;
 }
+h5 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit
+}
+h5 {
+    font-size: 14px;
+}
 
