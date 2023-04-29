@@ -30,18 +30,24 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 
 
-| **Caso de Teste** 	| **CT-03 – Cadastrar e Calcular Pedido do Cliente e Prazo de Entrega**	|
+| **Caso de Teste** 	| **CT-03 – Cadastrar Pedido do Cliente**	|
 |:---:	|:---:	|
 |Requisito Associado | RF-004	- O sistema deve possuir opção de cadastrar pedido do cliente.|  
-|Requisito Associado | RF-005 O sistema deve permitir calcular, de acordo com o pedido do cliente, o preço de venda do produto.|   
-|Requisito Associado | RF-006 O sistema deve permitir calcular o prazo de entrega do pedido do cliente.|
 | Objetivo do Teste 	| Verificar se o usuário consegue cadastrar pedido do cliente. |
-| Objetivo do Teste 	| Verificar se o sistema consegue calcular o pedido do cliente. |
-| Objetivo do Teste 	| Verificar se o sistema consegue calcular o prazo de entrega do pedido do cliente. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Buscar pelo Cliente que irá fazer o pedido - Clicar no botão "Cadastrar Pedido" <br> - Selecionar os serviços solicitados, preenchendo com os valores de quantidade para cada serviço <br> - Clicar em "Finalizar Pedido" |
 |Critério de Êxito | - O pedido foi cadastrado com sucesso. |   
-|Critério de Êxito | - O cálculo do preço de venda do pedido foi realizado com sucesso. |
-|Critério de Êxito | - O prazo de entrega foi calculado com sucesso. |
  
+| **Caso de Teste** 	| **CT-04 – Calcular Pedido do Cliente**	|
+|:---:	|:---:	|
+|Requisito Associado | RF-005 O sistema deve permitir calcular, de acordo com o pedido do cliente, o preço de venda do produto.|   
+| Objetivo do Teste 	| Verificar se o sistema consegue calcular o pedido do cliente. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Buscar pelo Cliente que irá fazer o pedido - Clicar no botão "Cadastrar Pedido" <br> - Selecionar os serviços solicitados, preenchendo com os valores de quantidade para cada serviço <br> - Clicar em "Finalizar Pedido" |
+|Critério de Êxito | - O cálculo do preço de venda do pedido foi realizado com sucesso. |
 
+| **Caso de Teste** 	| **CT-05 – Calcular o Prazo de Entrega do Pedido do Cliente**	|
+|:---:	|:---:	|  
+|Requisito Associado | RF-006 O sistema deve permitir calcular o prazo de entrega do pedido do cliente.|
+| Objetivo do Teste 	| Verificar se o sistema consegue calcular o prazo de entrega do pedido do cliente. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Buscar pelo Cliente que irá fazer o pedido - Clicar no botão "Cadastrar Pedido" <br> - Selecionar os serviços solicitados, preenchendo com os valores de quantidade para cada serviço <br> - Clicar em "Finalizar Pedido" |
+|Critério de Êxito | - O prazo de entrega foi calculado com sucesso. |
  
