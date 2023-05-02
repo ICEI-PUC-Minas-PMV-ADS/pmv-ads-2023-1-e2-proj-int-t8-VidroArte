@@ -34,3 +34,25 @@ No caso específico do nosso sistema, os participantes irão executar as seguint
 
 Os nossos participantes serão os funcionários da empresa para a qual estamos desenvolvendo o sistema. No caso dos requisitos funcionais especificados iremos avaliar em especial os vendedores que trabalham na empresa.
 
+## **Segue tabela com cada caso de teste**:
+#
+
+
+| Caso de teste 01     |  CT 01 - Cadastro (cliente)                                                                    | 
+| ------- | ------------------------------------------------------------------------------------------------------------ | 
+| Objetivo do teste | Verificar se o a funcionalidade de cadastrar novo cliente está funcionando corretamente            | 
+| Ações esperadas | 1- acessar a area de cadastro. 2-colocar os dados do cliente. 3- salvar informaçoes.      |
+| Critérios de êxito | Um novo cliente sera cadastrado.                                                                       |
+<br>
+
+| Caso de teste 02     |  CT 02 - Fazer login (vendedor)                                                                 | 
+| ------- | ------------------------------------------------------------------------------------------------------------ | 
+| Objetivo do teste | Verificar se o a funcionalidade acessar sua conta está funcionando corretamente            | 
+| Ações esperadas |  1- colocar login e senha. 2- entrar na sua conta     |
+| Critérios de êxito | Fazer o longin corretamente                                                          |
+<br>
+
+                                                               |
+
+
+
