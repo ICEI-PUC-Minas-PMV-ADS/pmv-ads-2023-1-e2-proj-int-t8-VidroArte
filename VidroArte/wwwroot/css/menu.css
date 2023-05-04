@@ -1,0 +1,101 @@
+﻿* {
+    margin: 0;
+    font-family: "comfortaa", cursive;
+    padding: 0;
+}
+
+.menulateral {
+    background-color: #384f65;
+    width: 280px;
+    height: 100%;
+    position: fixed;
+}
+
+.menulateral .titulo {
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+}
+
+.menulateral ul {
+    list-style: none;
+}
+
+.menulateral ul li {
+    line-height: 35px;
+}
+
+.menulateral ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 30px;
+    font-weight: bold;
+    display: block;
+}
+
+.menulateral ul li  a:hover {
+    font-weight: bold;
+
+}
+
+.menulateral ul ul li a {
+    font-size: 10px;
+    font-weight: 300;
+    padding-left: 60px;
+    background-color: #263544;
+}
+
+.menulateral ul ul {
+    display: none;
+}
+
+.menulateral ul li a span {
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+}
+
+a,navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem #384f65;
+}
+h5 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit
+}
+h5 {
+    font-size: 14px;
+}
+

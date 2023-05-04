@@ -1,0 +1,183 @@
+﻿@page
+@model VidroArte.Pages.Shared._LayoutModel
+@{
+    ViewData["Title"] = "Inserir novo orçamento";
+}
+@{
+    Layout = "_Layout";
+}
+<head>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/style.css">
+    <script src="~/js/mask.js"></script>
+
+
+</head>
+<body>
+
+    <div class="area_cadastro">
+        <h3><span class="material-symbols-outlined">person_add</span> INSERIR NOVO ORÇAMENTO</h3>
+        <br /><br />
+        <p>
+            <label><i class="helper"></i>Total:</label>
+            <input type="text" id="total_pedido" name="total_pedido" size="20">&emsp;
+            <label><i class="helper"></i>Área:</label>
+            <input type="text" id="area" name="area" size="20">&emsp;
+            <label><i class="helper"></i>Pedido:</label>
+            <input type="text" id="num_pedido" name="num_pedido" size="20">
+        <p>
+            <br />
+        <p>
+            <label><i class="helper"></i>Cliente:</label>
+            <input type="text" id="cliente" name="cliente" size="50">&emsp;
+            <label><i class="helper"></i>Pedido Cliente:</label>
+            <input type="text" id="pedido_cliente" name="pedido_cliente" size="15">
+        <p>
+            <br />
+        <p>
+            <label><i class="helper"></i>Recebimento:</label>
+            <input type="date" id="total_pedido" name="total_pedido" size="15">&emsp;
+            <label><i class="helper"></i>Pagamento:</label>
+            <input type="date" id="area" name="area" size="15">&emsp;
+            <label><i class="helper"></i>Entrega:</label>
+            <input type="date" id="num_pedido" name="num_pedido" size="15">
+        <p>
+            <br />
+        <p>
+            <label><i class="helper"></i>Pix:</label>
+            <input type="text" id="pix" name="total_pedido" size="15">&emsp;
+            <label><i class="helper"></i>Cartão:</label>
+            <input type="text" id="credito" name="area" size="15">&emsp;
+            <label><i class="helper"></i>Dinheiro:</label>
+            <input type="text" id="mensal" name="num_pedido" size="15">
+        <p>
+            <br />
+        <p>
+            <label><i class="helper"></i>Comprovante:</label>
+            <input type="file" id="mensal" name="num_pedido" size="2">
+        </p>
+        <br />
+        <p>
+            <label><i class="helper"></i>Observação:</label>
+            <input type="text" id="total_pedido" name="total_pedido" size="80">&emsp;
+        <p>
+            <br /><br />
+        <p align="center">
+            <button id="salvar" name="salvar" class="btn btn-primary"> Salvar Orçamento </button>
+            <button id="salvar" name="salvar" class="btn btn-primary"> Criar Pedido </button>
+            <button id="imprimir" name="imprimir" class="btn btn-primary"> Imprimir Orçamento </button>
+            <button id="cancelar" name="cancelar" class="btn btn-primary" onclick="cancelar()"> Cancelar </button>
+
+        </p><br /><br />
+        <div class="container">
+            <h1></h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Serviço</th>
+                        <th>Cor</th>
+                        <th>Altura</th>
+                        <th>Largura</th>
+                        <th>Área</th>
+                        <th>Total</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" class="form-control" name="Serviço[]" size="15"></td>
+                        <td><input type="text" class="form-control" name="cor[]" size="10"></td>
+                        <td><input type="text" class="form-control" name="altura[]" size="10"></td>
+                        <td><input type="text" class="form-control" name="largura[]" size="10"></td>
+                        <td><input type="text" class="form-control" name="area[]" size="8"></td>
+                        <td><input type="text" class="form-control" name="total[]" size="15"></td>
+                        <td><button type="button" class="btn btn-danger btn-sm delete-row">Excluir</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="button" class="btn btn-primary btn-sm" id="incluir_item">Incluir Serviço</button>
+        </div>
+
+        <!-- Link para o jQuery -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                var $tableBody = $('tbody');
+                var $emptyRow = $tableBody.find('tr:first').clone();
+                $tableBody.find('tr:first input').val('');
+
+                $('button[type="submit"]').on('click', function (e) {
+                    e.preventDefault();
+                    var $newRow = $emptyRow.clone();
+                    $newRow.find('input').val('');
+                    $tableBody.append($newRow);
+                    if ($tableBody.find('tr').length > 1) {
+                        $tableBody.find('button.delete-row').eq(0).addClass('delete-row');
+                    } else {
+                        $tableBody.find('button.delete-row').eq(0).removeClass('delete-row');
+                    }
+                });
+
+                $tableBody.on('click', '.delete-row', function () {
+                    var $row = $(this).closest('tr');
+                    var index = $row.index();
+                    if (index !== 0) {
+                        $row.remove();
+                    } else {
+                        if ($tableBody.find('tr').length > 1) {
+                            $row.remove();
+                            $tableBody.find('button.delete-row').eq(0).addClass('delete-row');
+                        } else {
+                            $tableBody.find('button.delete-row').eq(0).removeClass('delete-row');
+                        }
+                    }
+                });
+
+                $tableBody.on('click', 'tr:first-child', function (e) {
+                    if (!$(this).hasClass('delete-row')) {
+                        return;
+                    }
+
+                    var $row = $(this);
+                    var index = $row.index();
+                    if (index !== 0) {
+                        $row.remove();
+                    } else {
+                        if ($tableBody.find('tr').length > 1) {
+                            $row.remove();
+                            $tableBody.find('button.delete-row').eq(0).addClass('delete-row');
+                        } else {
+                            $tableBody.find('button.delete-row').eq(0).removeClass('delete-row');
+                        }
+                    }
+                });
+
+
+                $('#incluir_item').on('click', function () {
+                    var $tableBody = $('tbody');
+                    var $lastRow = $tableBody.find('tr:last');
+                    var $newRow = $lastRow.clone();
+                    $newRow.find('input').val('');
+                    $newRow.find('td').eq(0).html('<input type="text" class="form-control" name="Serviço[]" size="15">');
+                    $newRow.find('td').eq(1).html('<input type="text" class="form-control" name="cor[]" size="10">');
+                    $newRow.find('td').eq(2).html('<input type="text" class="form-control" name="altura[]" size="10">');
+                    $newRow.find('td').eq(3).html('<input type="text" class="form-control" name="largura[]" size="10">');
+                    $newRow.find('td').eq(4).html('<input type="text" class="form-control" name="area[]" size="8">');
+                    $newRow.find('td').eq(5).html('<input type="text" class="form-control" name="total[]" size="15">');
+                    $newRow.find('td').eq(6).html('<button type="button" class="btn btn-danger btn-sm delete-row">Excluir</button>');
+                    $tableBody.append($newRow);
+
+                });
+            });
+        </script>
+
+
+
+    </div>
+</body>
+
+

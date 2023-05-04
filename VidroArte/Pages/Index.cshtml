@@ -1,0 +1,91 @@
+﻿@page
+@model vidroarte.Views.Home.IndexModel
+@{
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulário de Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="~/css/login.css" />
+    <script src="~/js/sessao.js"></script>
+</head>
+<body>
+    <div class="container">
+        <a class="links" id="paralogin"></a>
+        <a class="links" id="paracadastro"></a>
+        <div class="content">
+            <!--FORMULÁRIO DE CADASTRO-->
+            <div id="cadastro">
+                <form method="post">
+
+                    <h1><img src="~/img/logo.png" width="150"><br />Cadastro</h1>
+
+                    <p>
+                        <input id="nome_cad" name="nome_comp_cad" required="required" type="text" placeholder="Digite seu Nome Completo" />
+                    </p>
+                    <p>
+                        <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Digite como gostaria de ser chamado" />
+                    </p>
+
+                    <p>
+                        <input id="email_cad" name="email_cad" required="required" type="email" placeholder="Digite seu e-mail" />
+                    </p>
+
+                    <p>
+                        <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="Digite sua senha" />
+                    </p>
+                    <p>
+                        <input id="conf_senha_cad" name="conf_senha_cad" required="required" type="password" placeholder="Confirme sua senha" />
+                    </p>
+
+                    <p>
+                        <input type="submit" name="Cadastrar" value="Cadastrar" />
+                    </p>
+                    <p>
+                        @if (Model.errorMessagecadastro.Length > 0)
+                        {
+                            <strong>@Html.Raw(Model.errorMessagecadastro.Replace("\n", "<br>"))</strong>
+                        }
+                    </p>
+                    <p class="link">
+                        Já tem conta?
+                        <a href="#paralogin" id="irlogin"> Ir para Login </a>
+                    </p>
+                </form>
+            </div>
+            <!--FORMULÁRIO DE LOGIN-->
+            <div id="login">
+
+                <form method="post">
+                    <h1><img src="~/img/logo.png" width="150"><br />Login</h1>
+                    <p>
+                        <input id="email" name="email" required="required" type="text" placeholder="Digite seu e-mail" />
+                    </p>
+
+                    <p>
+                        <input id="senha" name="senha" required="required" type="password" placeholder="Digite Sua Senha" />
+                    </p>
+
+                    <p>
+                        <input type="submit" name="Logar" value="Logar" />
+                    </p>
+                    <p align="center">
+                        @if (Model.errorMessage.Length > 0)
+                        {
+                            <strong>@Model.errorMessage</strong>
+                        }
+                    </p>
+                    <p class="link">
+                        Ainda não tem conta?
+                        <a href="#paracadastro" id="ircadastro">Cadastre-se</a>
+                    </p>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+﻿@page
+@model VidroArte.Pages.Shared._LayoutModel
+@{
+    ViewData["Title"] = "Inserir novo Cliente";
+}
+@{
+    Layout = "_Layout";
+}
+<head>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="~/css/style.css">
+    <script src="~/js/mask.js"></script>
+    <script src="~/js/cep.js"></script>
+    <script src="~/js/validacpfcnjp.js"></script>
+
+</head>
+<body>
+
+    <div class="area_cadastro">
+        <form method="post" action="validacao.php">
+
+            <h3><span class="material-symbols-outlined">local_shippingadd</span> CADASTRO DE FORNECEDOR</h3><br /><br />
+            <br /><br />
+            <input type="text" id="razaosocial" name="razaosocial" class="form-control form-control-round" placeholder="Razão Social" size="50">
+
+            <input type="text" id="cpf-Cnpj" name="cpf-Cnpj" class="form-control form-control-round" placeholder="CNPJ" size="16" oninput="mascaraCpfCnpj(this)" onblur="validarCpfCnpj(this.value)" maxlength="18" minlength="18">
+
+            <input type="text" id="inscestadual" name="inscestadual" class="form-control form-control-round" placeholder="Inscrição Estadual" size="18">
+
+            <input type="text" id="responsavel" name="responsavel" class="form-control form-control-round" placeholder="Contato Responsavel"><br /><br />
+
+            <input type="email" id="email" name="email" class="form-control form-control-round   " placeholder="E-mail" size="50">
+
+            <input type="text" id="telefone" name="telefone" class="form-control form-control-round" placeholder="Telefone Fixo">
+
+            <input type="text" id="celular" name="celular" class="form-control form-control-round" placeholder="Telefone Celular"><br /><br />
+
+            <input type="text" id="cep" name="cep" class="form-control form-control-round" placeholder="CEP" onblur="pesquisacep(this.value);">
+
+            <input type="text" id="rua" name="rua" class="form-control form-control-round" placeholder="Endereço" size="55">
+
+            <input type="text" id="num" name="num" class="form-control form-control-round" placeholder="Numero" size="10">
+
+            <input type="text" id="numcomp" name="numcomp" class="form-control form-control-round" placeholder="Complemento" size="10"><br /><br />
+
+            <input type="text" id="bairro" name="bairro" class="form-control form-control-round" placeholder="Bairro">
+
+            <input type="text" id="cidade" name="cidade" class="form-control form-control-round" placeholder="Cidade">
+
+            <input type="text" id="uf" name="uf" class="form-control form-control-round   " placeholder="Estado"><br /><br />
+
+            <input type="text" id="usuario" name="usuario" class="form-control form-control-round" placeholder="Usuário">
+
+            <input type="password" id="senha" name="senha" class="form-control form-control-round" placeholder="Senha">
+
+            <input type="password" id="csenha" name="csenha" class="form-control form-control-round" placeholder="Confirmar Senha"><br /><br />
+
+            <input type="text" id="banco" name="banco" class="form-control form-control-round" placeholder="Banco">
+
+            <input type="password" id="agencia" name="agencia" class="form-control form-control-round" placeholder="Agencia">
+
+            <input type="password" id="conta" name="conta" class="form-control form-control-round" placeholder="Nº Conta">
+
+            <input type="password" id="digito" name="digito" class="form-control form-control-round" placeholder="Digito">
+
+            <input type="password" id="tipoconta" name="tipoconta" class="form-control form-control-round" placeholder="Tipo Conta">
+
+
+            <br /><br />
+            <p align="center">
+                <button id="salvar" name="salvar" class="btn btn-primary"> Salvar </button>
+                <button id="cancelar" name="cancelar" class="btn btn-primary" onclick="cancelar()"> Cancelar </button>
+
+            </p>
+
+
+        </form>
+
+    </div>
+</body>
+
