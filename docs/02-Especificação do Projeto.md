@@ -66,13 +66,13 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve permitir fazer cadastro de usuário para o vendedor   | ALTA | 
-|RNF-002| O sistema deve permitir fazer login com usuário e senha do vendedor   | ALTA | 
-|RNF-003| O sistema deve permitir cadastrar novos clientes   |  MÉDIA |
-|RNF-004| O sistema deve permitir atualizar os dados dos clientes, deletar clientes e pesquisar por clientes já cadastrados |ALTA|
-|RNF-005| O sistema deve permitir realizar o cadastro de pedido do cliente |ALTA|  
-|RNF-006| O sistema deve permitir calcular, de acordo com o pedido do cliente, o preço de venda do produto |ALTA|
-|RNF-007| O sistema deve permitir calcular o prazo de entrega do pedido do cliente |ALTA|
+|RF-001| O sistema deve permitir fazer cadastro de usuário para o vendedor   | ALTA | 
+|RF-002| O sistema deve permitir fazer login com usuário e senha do vendedor   | ALTA | 
+|RF-003| O sistema deve permitir cadastrar novos clientes   |  MÉDIA |
+|RF-004| O sistema deve permitir atualizar os dados dos clientes, deletar clientes e pesquisar por clientes já cadastrados |ALTA|
+|RF-005| O sistema deve permitir realizar o cadastro de pedido do cliente |ALTA|  
+|RF-006| O sistema deve permitir calcular, de acordo com o pedido do cliente, o preço de venda do produto |ALTA|
+|RF-007| O sistema deve permitir calcular o prazo de entrega do pedido do cliente |ALTA|
 
 
 ### Requisitos não Funcionais
