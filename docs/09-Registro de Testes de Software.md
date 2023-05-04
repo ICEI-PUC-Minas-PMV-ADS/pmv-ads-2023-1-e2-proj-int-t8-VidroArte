@@ -19,3 +19,17 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | Ações esperadas | 1- Acessar a tela de login. 2- Digitar o nome de usuário e senha corretos. 3- Clicar no botão de login. 4- Verificar se o usuário é redirecionado para a página inicial do sistema. |
 | Resultado | O usuário é autenticado e redirecionado para a página inicial do sistema. |
 <br>
+
+| Teste 02     |  Autenticação mal-sucedida do usuário inválido                                                                  | 
+| ------- | ------------------------------------------------------------------------------------------------------------ | 
+| Descrição | Tentativa de login com as credenciais inválidas. | 
+| Ações esperadas | 1- Acessar a tela de login. 2- Digitar um nome de usuário inválido e uma senha inválida. 3- Clicar no botão de login. 4- Verificar se uma mensagem de erro é exibida indicando que as credenciais são inválidas. |
+| Resultado | Uma mensagem de erro é exibida indicando que as credenciais são inválidas. |
+<br>
+
+| Teste 03     |  Autenticação mal-sucedida devido à falta de credenciais                                                                  | 
+| ------- | ------------------------------------------------------------------------------------------------------------ | 
+| Descrição | Tentativa de login com as credenciais inválidas. | 
+| Ações esperadas | 1- Acessar a tela de login. 2- Clicar no botão de login sem digitar nenhum nome de usuário ou senha. 3- Verificar se uma mensagem de erro é exibida indicando que as credenciais são inválidas. |
+| Resultado | Uma mensagem de erro é exibida indicando que as credenciais são inválidas. |
+<br>
