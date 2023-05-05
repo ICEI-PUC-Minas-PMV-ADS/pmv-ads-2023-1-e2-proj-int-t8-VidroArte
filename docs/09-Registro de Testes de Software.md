@@ -11,7 +11,6 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | Objetivo do teste | Verificar se a tela de login do sistema permite que usuários autorizados acessem o sistema e que usuários não autorizados sejam impedidos de acessar o sistema. | 
 | Escopo | Testar a funcionalidade da tela de login para usuários válidos e inválidos. |
 | Ambiente de Teste | Sistema operacional Windows 10, navegador Google Chrome, ambiente de desenvolvimento integrado (IDE) Visual Studio, versão 2019. |
-| Resultado | ![WhatsApp Image 2023-05-04 at 21 15 49](https://user-images.githubusercontent.com/115122394/236355836-e6a3c0ba-6c11-4ee7-b8f5-f458b1c95bcb.jpeg) |
 <br>
 
 | Teste 01     |  Autenticação bem-sucedida do usuário válido                                                                  | 
@@ -19,6 +18,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | Descrição | Tentativa de login com as credenciais corretas de um usuário autorizado. | 
 | Ações esperadas | 1- Acessar a tela de login. 2- Digitar o nome de usuário e senha corretos. 3- Clicar no botão de login. 4- Verificar se o usuário é redirecionado para a página inicial do sistema. |
 | Resultado | O usuário é autenticado e redirecionado para a página inicial do sistema. |
+| Resultado | ![WhatsApp Image 2023-05-04 at 21 15 49](https://user-images.githubusercontent.com/115122394/236355836-e6a3c0ba-6c11-4ee7-b8f5-f458b1c95bcb.jpeg) |
 <br>
 
 | Teste 02     |  Autenticação mal-sucedida do usuário inválido                                                                  | 
