@@ -35,4 +35,5 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | Descrição | Tentativa de login com as credenciais inválidas. | 
 | Ações esperadas | 1- Acessar a tela de login. 2- Clicar no botão de login sem digitar nenhum nome de usuário ou senha. 3- Verificar se uma mensagem de erro é exibida indicando que as credenciais são inválidas. |
 | Resultado | Uma mensagem de erro é exibida indicando que as credenciais são inválidas. |
+| Tela | ![WhatsApp Image 2023-05-04 at 21 46 46](https://user-images.githubusercontent.com/115122394/236457061-1873aae8-7ff6-4624-b172-d8e6217e4d94.jpeg) |
 <br>
