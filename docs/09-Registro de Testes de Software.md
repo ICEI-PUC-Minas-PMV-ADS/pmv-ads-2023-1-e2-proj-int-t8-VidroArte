@@ -27,6 +27,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | Descrição | Tentativa de login com as credenciais inválidas. | 
 | Ações esperadas | 1- Acessar a tela de login. 2- Digitar um nome de usuário inválido e uma senha inválida. 3- Clicar no botão de login. 4- Verificar se uma mensagem de erro é exibida indicando que as credenciais são inválidas. |
 | Resultado | Uma mensagem de erro é exibida indicando que as credenciais são inválidas. |
+| Tela | ![WhatsApp Image 2023-05-04 at 21 20 24 (1)](https://user-images.githubusercontent.com/115122394/236456567-a423d0ed-e55c-4d9b-9593-7402dc09066d.jpeg) |
 <br>
 
 | Teste 03     |  Autenticação mal-sucedida devido à falta de credenciais                                                                  | 
