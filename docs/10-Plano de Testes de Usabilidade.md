@@ -25,6 +25,7 @@ Relatar a performance e a opinião dos participantes
 
 No caso específico do nosso sistema, os participantes irão executar as seguintes tarefas:   
 
+- cadastro de usuário/vendedor
 - longin de usuário/vendedor   
 - cadastro de novos clientes   
 - Busca de clientes já cadastrados, atualização de dados de clientes já cadastrados e remoção de clientes já cadastrados   
