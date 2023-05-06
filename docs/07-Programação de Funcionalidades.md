@@ -8,12 +8,12 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-001|O sistema deve permitir fazer cadastro de usuário para o vendedor | | 
-|RF-002|O sistema deve permitir calcular, de acordo com o pedido do cliente, o preço de venda do produto  | |
-|RF-003|O sistema deve permitir fazer login com usuário e senha do vendedor||
-|RF-004|O sistema deve permitir cadastrar novos clientes||
-|RF-005|O sistema deve permitir atualizar os dados dos clientes, deletar clientes e pesquisar por clientes já cadastrados||
-|RF-006|O sistema deve permitir realizar o cadastro de pedido do cliente||
+|RF-001|O sistema deve permitir fazer cadastro de usuário para o vendedor |index.cshtml| 
+|RF-002|O sistema deve permitir calcular, de acordo com o pedido do cliente, o preço de venda do produto  |inserir_orcamento.cshtml |
+|RF-003|O sistema deve permitir fazer login com usuário e senha do vendedor|index.cshtml/login.css|
+|RF-004|O sistema deve permitir cadastrar novos clientes|inserir_cliente.cshtml|
+|RF-005|O sistema deve permitir atualizar os dados dos clientes, deletar clientes e pesquisar por clientes já cadastrados|consultar_cliente.cshtml|
+|RF-006|O sistema deve permitir realizar o cadastro de pedido do cliente|inserir_pedido.cshtml|
 # Instruções de acesso
 
 Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
@@ -21,11 +21,3 @@ Não deixe de informar o link onde a aplicação estiver disponível para acesso
 Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
 
 O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
-
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
