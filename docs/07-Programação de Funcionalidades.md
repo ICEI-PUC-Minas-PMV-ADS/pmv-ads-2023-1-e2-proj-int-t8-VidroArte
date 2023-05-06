@@ -14,7 +14,6 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 |RF-004|O sistema deve permitir cadastrar novos clientes||
 |RF-005|O sistema deve permitir atualizar os dados dos clientes, deletar clientes e pesquisar por clientes já cadastrados||
 |RF-006|O sistema deve permitir realizar o cadastro de pedido do cliente||
-|RF-007|O sistema deve permitir calcular o prazo de entrega do pedido do cliente||
 # Instruções de acesso
 
 Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
