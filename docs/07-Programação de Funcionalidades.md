@@ -18,6 +18,5 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 https://vidroarte.azurewebsites.net/
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
+Ao criar uma conta ultilizar o user como no exemplo: usuário134@xyz.com
 
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
