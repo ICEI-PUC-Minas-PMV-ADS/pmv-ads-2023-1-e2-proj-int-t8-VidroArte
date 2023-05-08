@@ -18,5 +18,5 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 https://vidroarte.azurewebsites.net/
 
-Ao criar uma conta ultilizar o user como no exemplo: usuário134@xyz.com
+Ao criar uma conta ultilizar o user como no exemplo: usuario134@xyz.com
 
