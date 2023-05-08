@@ -35,5 +35,7 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 
 ## Hospedagem
 
-Como ambiente de hospedagem do site do projeto optamos pela plataforma GitHub Pages. A publicação foi realizada por comandos via git para o repositório que pode ser acessado através do endereço:.
+Como ambiente de hospedagem do site do projeto optamos pela plataforma Azure Websites. A publicação foi realizada por comandos via git para o repositório que pode ser acessado através do endereço:
+[Link para o site](https://vidroarte.azurewebsites.net/)
+
 
