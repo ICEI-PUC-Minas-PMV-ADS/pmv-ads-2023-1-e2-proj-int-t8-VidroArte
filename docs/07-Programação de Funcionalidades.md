@@ -16,8 +16,6 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 |RF-006|O sistema deve permitir realizar o cadastro de pedido do cliente|inserir_pedido.cshtml|
 # Instruções de acesso
 
-https://vidroarte.azurewebsites.net/
-
 Link onde a aplicação está disponível para acesso:
 [VidroArte](https://vidroarte.azurewebsites.net/)
 
