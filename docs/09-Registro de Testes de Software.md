@@ -19,7 +19,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | Ações esperadas | 1- Acessar a tela de login. 2- Digitar o nome de usuário e senha corretos. 3- Clicar no botão de login. 4- Verificar se o usuário é redirecionado para a página inicial do sistema. |
 | Resultado | O usuário é autenticado e redirecionado para a página inicial do sistema. |
 | Telas | ![WhatsApp Image 2023-05-04 at 21 15 49](https://user-images.githubusercontent.com/115122394/236355836-e6a3c0ba-6c11-4ee7-b8f5-f458b1c95bcb.jpeg)|
-| Telas |![WhatsApp Image 2023-05-04 at 21 48 02](https://user-images.githubusercontent.com/115122394/236455525-6b82d423-3d3e-4926-b2f7-68b1fdfd83f0.jpeg)|
+| Telas |![WhatsApp Image 2023-05-25 at 20 55 45](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-VidroArte/assets/115122394/6c426cfd-8598-4ad7-adae-9bca8ba6c57b)|
 <br>
 
 | Teste 02     |  Autenticação mal-sucedida do usuário inválido                                                                  | 
