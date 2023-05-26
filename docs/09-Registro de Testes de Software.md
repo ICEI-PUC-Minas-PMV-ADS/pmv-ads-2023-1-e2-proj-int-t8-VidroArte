@@ -71,3 +71,19 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | Resultado | Uma mensagem de erro é exibida indicando que as informações obrigatórias do cliente não foram fornecidas. |
 | Telas | FALTA TELA DE ERRO SOLICITANDO INFORMAÇÕES OBRIGATÓRIAS|
 <br>
+
+| Caso de teste 03     |  CT 03 - Cadastrar Pedido do Cliente                                                                   | 
+| ------- | ------------------------------------------------------------------------------------------------------------ | 
+| Objetivo do teste | Verificar se a tela de cadastro de pedidos do sistema permite que os usuários cadastrem pedidos corretamente e que o sistema armazene e exiba essas informações corretamente. | 
+| Escopo | Testar a funcionalidade da tela de cadastro de pedidos para diferentes cenários, incluindo pedidos válidos e inválidos. |
+| Ambiente de Teste | Sistema operacional Windows 10, navegador Google Chrome, ambiente de desenvolvimento integrado (IDE) Visual Studio, versão 2019. |
+<br>
+
+| Teste 01     |  Cadastro bem-sucedido de um novo pedido                                                                  | 
+| ------- | ------------------------------------------------------------------------------------------------------------ | 
+| Descrição | Tentativa de cadastro de um novo pedido com informações válidas. | 
+| Ações esperadas | 1- Acessar a tela de cadastro de pedidos. 2- Preencher as informações válidas do novo pedido, incluindo dados do cliente, itens do pedido, quantidades, preços, formas de pagamento e outros campos relevantes. 3- Clicar no botão de Salvar Pedido. 4- Verificar se o pedido é registrado com sucesso no sistema e exibido corretamente na lista de pedidos. |
+| Resultado | O novo pedido é cadastrado com sucesso e exibido corretamente na lista de pedidos. |
+| Telas | ![WhatsApp Image 2023-05-25 at 21 41 27](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-VidroArte/assets/115122394/26e28508-881b-4607-aca7-9ae003bd65e9)|
+| Telas | FAlTA TELA CONSULTA LISTA PEDIDOS|
+<br>
