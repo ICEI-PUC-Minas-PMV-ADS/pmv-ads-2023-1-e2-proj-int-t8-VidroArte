@@ -62,3 +62,12 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | Resultado | Uma mensagem de erro é exibida indicando que as informações do cliente são inválidas. |
 | Telas | ![WhatsApp Image 2023-05-25 at 21 02 03](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-VidroArte/assets/115122394/667fc5e3-90e8-4fa5-bb5d-56c50e750e56)|
 <br>
+
+
+| Teste 03     |  Cadastro mal-sucedido devido à falta de informações obrigatórias                                                                | 
+| ------- | ------------------------------------------------------------------------------------------------------------ | 
+| Descrição |  Tentativa de cadastro de um novo cliente sem fornecer informações obrigatórias. | 
+| Ações esperadas | 1- Acessar a tela de cadastro de clientes. 2- Deixar em branco um ou mais campos obrigatórios do novo cliente. 3- Clicar no botão de Salvar. 4- Verificar se uma mensagem de erro é exibida indicando que as informações obrigatórias do cliente não foram fornecidas. |
+| Resultado | Uma mensagem de erro é exibida indicando que as informações obrigatórias do cliente não foram fornecidas. |
+| Telas | FALTA TELA DE ERRO SOLICITANDO INFORMAÇÕES OBRIGATÓRIAS|
+<br>
