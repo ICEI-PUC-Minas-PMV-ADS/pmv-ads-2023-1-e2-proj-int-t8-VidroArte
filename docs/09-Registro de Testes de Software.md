@@ -37,3 +37,19 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | Resultado | Uma mensagem de erro é exibida indicando que as credenciais são inválidas. |
 | Tela | ![WhatsApp Image 2023-05-04 at 21 46 46](https://user-images.githubusercontent.com/115122394/236457061-1873aae8-7ff6-4624-b172-d8e6217e4d94.jpeg) |
 <br>
+
+| Caso de teste 02     |  CT 02 - Cadastrar Novos Clientes                                                                   | 
+| ------- | ------------------------------------------------------------------------------------------------------------ | 
+| Objetivo do teste | Verificar se a tela de cadastro de clientes do sistema permite o cadastro correto de novos clientes e que as informações são armazenadas e exibidas corretamente. | 
+| Escopo | Testar a funcionalidade da tela de cadastro de clientes para diferentes cenários, incluindo clientes válidos e inválidos. |
+| Ambiente de Teste | Sistema operacional Windows 10, navegador Google Chrome, ambiente de desenvolvimento integrado (IDE) Visual Studio, versão 2019. |
+<br>
+
+| Teste 01     |  Cadastro bem-sucedido de um novo cliente                                                                  | 
+| ------- | ------------------------------------------------------------------------------------------------------------ | 
+| Descrição | Tentativa de cadastro de um novo cliente com informações válidas. | 
+| Ações esperadas | 1- Acessar a tela de cadastro de clientes. 2- Preencher as informações válidas do novo cliente, como nome/razão social, CPF/CNPJ, RG/Inscrição Estadual, endereço, telefone, e-mail e outros campos relevantes. 3- Clicar no botão de Salvar. 4- Verificar se o cliente é cadastrado com sucesso no sistema e exibido corretamente na lista de clientes. |
+| Resultado | O novo cliente é cadastrado com sucesso e exibido corretamente na lista de clientes. |
+| Telas | ![WhatsApp Image 2023-05-25 at 21 03 56](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-VidroArte/assets/115122394/cb42a24d-7ec5-4191-9d0a-3758f408f021)|
+| Telas | ![WhatsApp Image 2023-05-25 at 21 11 48](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-VidroArte/assets/115122394/33cb09c7-a5ac-4823-a291-f673e0fe326e)|
+<br>
