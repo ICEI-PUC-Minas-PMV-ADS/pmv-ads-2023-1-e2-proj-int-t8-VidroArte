@@ -52,4 +52,13 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | Resultado | O novo cliente é cadastrado com sucesso e exibido corretamente na lista de clientes. |
 | Telas | ![WhatsApp Image 2023-05-25 at 21 03 56](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-VidroArte/assets/115122394/cb42a24d-7ec5-4191-9d0a-3758f408f021)|
 | Telas | ![WhatsApp Image 2023-05-25 at 21 11 48](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-VidroArte/assets/115122394/33cb09c7-a5ac-4823-a291-f673e0fe326e)|
+| Telas | FAlTA TELA CONSULTA LISTA CLIENTES|
+<br>
+
+| Teste 02     |  Cadastro mal-sucedido de um novo cliente devido a informações inválidas                                                                  | 
+| ------- | ------------------------------------------------------------------------------------------------------------ | 
+| Descrição |  Tentativa de cadastro de um novo cliente com informações inválidas. | 
+| Ações esperadas | 1- Acessar a tela de cadastro de clientes. 2- Preencher as informações inválidas do novo cliente. 3- Clicar no botão de Salvar. 4- Verificar se uma mensagem de erro é exibida indicando que as informações do cliente são inválidas. |
+| Resultado | Uma mensagem de erro é exibida indicando que as informações do cliente são inválidas. |
+| Telas | ![WhatsApp Image 2023-05-25 at 21 02 03](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-VidroArte/assets/115122394/667fc5e3-90e8-4fa5-bb5d-56c50e750e56)|
 <br>
