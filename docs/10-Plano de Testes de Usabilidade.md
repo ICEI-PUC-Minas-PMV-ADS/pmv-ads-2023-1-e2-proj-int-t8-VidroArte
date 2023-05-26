@@ -45,14 +45,14 @@ Os nossos participantes serão os funcionários da empresa para a qual estamos d
 | Critérios de êxito | Um novo usuário será cadastrado.                                                                       |
 <br>
 
-| Caso de teste 02     |  CT 02 - Fazer login (vendedor)                                                                 | 
+| Caso de teste 02     |  CT 02 - Fazer login usuário                                                                 | 
 | ------- | ------------------------------------------------------------------------------------------------------------ | 
 | Objetivo do teste | Verificar se o a funcionalidade acessar sua conta está funcionando corretamente            | 
 | Ações esperadas |  1- colocar login e senha válidos. 2- entrar na sua conta     |
 | Critérios de êxito | Fazer o longin corretamente.                                                          |
 <br>
 
-| Caso de teste 03     |  CT 01 - Cadastro novo cliente                                                                    | 
+| Caso de teste 03     |  CT 03 - Cadastro novo cliente                                                                    | 
 | ------- | ------------------------------------------------------------------------------------------------------------ | 
 | Objetivo do teste | Verificar se o a funcionalidade de cadastrar novo cliente está funcionando corretamente            | 
 | Ações esperadas | 1- acessar a area de cadastro. 2-colocar os dados do cliente. 3- salvar informaçoes.      |
