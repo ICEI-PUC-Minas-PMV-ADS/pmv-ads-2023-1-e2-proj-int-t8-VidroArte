@@ -94,25 +94,25 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | Ações esperadas | 1- Acessar a tela de cadastro de pedidos. 2- Preencher as informações inválidas do novo pedido, incluindo dados do cliente, itens do pedido, quantidades, preços, formas de pagamento e outros campos relevantes. 3- Clicar no botão de Salvar Pedido. 4- Verificar se uma mensagem de erro é exibida indicando que as informações do pedido são inválidas. |
 | Resultado | Uma mensagem de erro é exibida indicando que as informações do pedido são inválidas. |
 | Telas | |
-| Telas | FAlTA TELA PREENCHIDA COM INFORMAÇÕES INVÁLIDAS E COM ERRO |
+| Telas | FAlTA TELA DE ERRO PREENCHIDA COM INFORMAÇÕES INVÁLIDAS |
 <br>
 
 | Teste 03    |  Cadastro mal-sucedido devido à falta de informações obrigatórias                                                                  | 
 | ------- | ------------------------------------------------------------------------------------------------------------ | 
-| Descrição | Tentativa de cadastro de um novo pedido com informações inválidas. | 
-| Ações esperadas | 1- Acessar a tela de cadastro de pedidos. 2- Preencher as informações inválidas do novo pedido, incluindo dados do cliente, itens do pedido, quantidades, preços, formas de pagamento e outros campos relevantes. 3- Clicar no botão de Salvar Pedido. 4- Verificar se uma mensagem de erro é exibida indicando que as informações do pedido são inválidas. |
-| Resultado | Uma mensagem de erro é exibida indicando que as informações do pedido são inválidas. |
+| Descrição | Tentativa de cadastro de um novo orçamento sem fornecer informações obrigatórias. | 
+| Ações esperadas | Acessar a tela de cadastro de orçamento. 2- Deixar em branco um ou mais campos obrigatórios do novo orçamento, como nome do cliente, descrição ou preços. 3- Clicar no botão de cadastro de orçamento. 4- Verificar se uma mensagem de erro é exibida indicando que as informações obrigatórias do orçamento não foram fornecidas. |
+| Resultado | Uma mensagem de erro é exibida indicando que as informações obrigatórias do orçamento não foram fornecidas. |
 | Telas | |
-| Telas | FAlTA TELA PREENCHIDA COM INFORMAÇÕES INVÁLIDAS E COM ERRO |
+| Telas | FAlTA TELA DE ERRO INDICANDO QUE AS INFORMAÇÕES OBRIGATÓRIAS NÃO PREENCHIDAS |
 <br>
 
-| Teste 04    |  Exclusão bem-sucedida de um pedido                                                                  | 
+| Teste 04    |  Exclusão bem-sucedida de um orçamento                                                                | 
 | ------- | ------------------------------------------------------------------------------------------------------------ | 
-| Descrição | Tentativa de cadastro de um novo pedido com informações inválidas. | 
-| Ações esperadas | 1- Acessar a tela de cadastro de pedidos. 2- Preencher as informações inválidas do novo pedido, incluindo dados do cliente, itens do pedido, quantidades, preços, formas de pagamento e outros campos relevantes. 3- Clicar no botão de Salvar Pedido. 4- Verificar se uma mensagem de erro é exibida indicando que as informações do pedido são inválidas. |
-| Resultado | Uma mensagem de erro é exibida indicando que as informações do pedido são inválidas. |
+| Descrição |  Tentativa de exclusão bem-sucedida de um orçamento existente. | 
+| Ações esperadas | 1- Acessar a tela de lista de orçamentos. 2- Selecionar o orçamento a ser excluído. 3- Clicar no botão de exclusão de orçamento. 4- Confirmar a exclusão quando solicitado. 5- Verificar se o orçamento é removido com sucesso do sistema e não é mais exibido na lista de orçamentos. |
+| Resultado | O orçamento é excluído com sucesso do sistema e não é mais exibido na lista de orçamentos. |
 | Telas | |
-| Telas | FAlTA TELA PREENCHIDA COM INFORMAÇÕES INVÁLIDAS E COM ERRO |
+| Telas | FAlTA TELA DO PEDIDO PREENCHIDO E DEPOIS DE EXCLUÍDO |
 <br>
 
 | Caso de teste 04     |  CT 04 - Calcular Pedido/Orçamento do Cliente                                                                   | 
