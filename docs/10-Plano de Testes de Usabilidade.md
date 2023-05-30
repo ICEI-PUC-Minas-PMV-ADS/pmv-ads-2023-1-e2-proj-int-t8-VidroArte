@@ -59,9 +59,16 @@ Os nossos participantes serão os funcionários da empresa para a qual estamos d
 | Critérios de êxito | Um novo cliente será cadastrado.                                                                       |
 <br>
 
+| Caso de teste 02     |  CT 04 - Cadastrar Pedido do Cliente                                                                 | 
+| ------- | ------------------------------------------------------------------------------------------------------------ | 
+| Objetivo do teste | Verificar se o a funcionalidade cadastrar pedido do cliente está funcionando corretamente            | 
+| Ações esperadas |  1- acessar área de inserir novo pedido do cliente. 2- colocar os dados do pedido do cliente. 3- salvar informações     |
+| Critérios de êxito | Um novo pedido será cadastrado.                                                          |
+<br>
 
-
-                                                               |
-
-
-
+| Caso de teste 03     |  CT 05 - Calcular Pedido/Orçamento do Cliente                                                                    | 
+| ------- | ------------------------------------------------------------------------------------------------------------ | 
+| Objetivo do teste | Verificar se o a funcionalidade de calcular pedido/orçamento do cliente está funcionando corretamente            | 
+| Ações esperadas | 1- acessar a área de inserir novo orçamento. 2-colocar os dados do orçamento do cliente. 3- salvar informaçoes.      |
+| Critérios de êxito | Um novo orçamento será cadastrado.                                                                       |
+<br>
