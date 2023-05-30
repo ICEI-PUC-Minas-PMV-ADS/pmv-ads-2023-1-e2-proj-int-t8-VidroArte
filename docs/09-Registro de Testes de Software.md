@@ -99,18 +99,18 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 
 | Teste 03    |  Cadastro mal-sucedido devido à falta de informações obrigatórias                                                                  | 
 | ------- | ------------------------------------------------------------------------------------------------------------ | 
-| Descrição | Tentativa de cadastro de um novo orçamento sem fornecer informações obrigatórias. | 
-| Ações esperadas | Acessar a tela de cadastro de orçamento. 2- Deixar em branco um ou mais campos obrigatórios do novo orçamento, como nome do cliente, descrição ou preços. 3- Clicar no botão de cadastro de orçamento. 4- Verificar se uma mensagem de erro é exibida indicando que as informações obrigatórias do orçamento não foram fornecidas. |
-| Resultado | Uma mensagem de erro é exibida indicando que as informações obrigatórias do orçamento não foram fornecidas. |
+| Descrição |Tentativa de cadastro de um novo pedido sem fornecer informações obrigatórias. | 
+| Ações esperadas | 1- Acessar a tela de cadastro de pedidos. 2- Deixar em branco um ou mais campos obrigatórios do novo pedido, incluindo dados do cliente, itens do pedido, quantidades, preços, formas de pagamento e outros campos relevantes. 3- Clicar no botão de cadastro de pedido. 4- Verificar se uma mensagem de erro é exibida indicando que as informações obrigatórias do pedido não foram fornecidas.|
+| Resultado | Uma mensagem de erro é exibida indicando que as informações obrigatórias do pedido não foram fornecidas. |
 | Telas | |
-| Telas | FAlTA TELA DE ERRO INDICANDO QUE AS INFORMAÇÕES OBRIGATÓRIAS NÃO PREENCHIDAS |
+| Telas | FAlTA TELA DE ERRO INDICANDO QUE AS INFORMAÇÕES OBRIGATÓRIAS NÃO FORAM PREENCHIDAS |
 <br>
 
-| Teste 04    |  Exclusão bem-sucedida de um orçamento                                                                | 
+| Teste 04    |  Exclusão bem-sucedida de um pedido                                                                | 
 | ------- | ------------------------------------------------------------------------------------------------------------ | 
-| Descrição |  Tentativa de exclusão bem-sucedida de um orçamento existente. | 
-| Ações esperadas | 1- Acessar a tela de lista de orçamentos. 2- Selecionar o orçamento a ser excluído. 3- Clicar no botão de exclusão de orçamento. 4- Confirmar a exclusão quando solicitado. 5- Verificar se o orçamento é removido com sucesso do sistema e não é mais exibido na lista de orçamentos. |
-| Resultado | O orçamento é excluído com sucesso do sistema e não é mais exibido na lista de orçamentos. |
+| Descrição |  Tentativa de exclusão bem-sucedida de um pedido existente. | 
+| Ações esperadas | 1- Acessar a tela de lista de pedidos. 2- Selecionar o pedido a ser excluído. 3- Clicar no botão de exclusão de pedido. 4- Confirmar a exclusão quando solicitado. 5- Verificar se o pedido é removido com sucesso do sistema e não é mais exibido na lista de pedidos. |
+| Resultado | O pedido é excluído com sucesso do sistema e não é mais exibido na lista de pedidos. |
 | Telas | |
 | Telas | FAlTA TELA DO PEDIDO PREENCHIDO E DEPOIS DE EXCLUÍDO |
 <br>
@@ -122,7 +122,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | Ambiente de Teste | Sistema operacional Windows 10, navegador Google Chrome, ambiente de desenvolvimento integrado (IDE) Visual Studio, versão 2019. |
 <br>
 
-| Teste 01     |  CCadastro bem-sucedido de um novo orçamento                                                                  | 
+| Teste 01     |  Cadastro bem-sucedido de um novo orçamento                                                                  | 
 | ------- | ------------------------------------------------------------------------------------------------------------ | 
 | Descrição | Tentativa de cadastro de um novo orçamento com informações válidas. | 
 | Ações esperadas | 1- Acessar a tela de cadastro de orçamento. 2- Preencher as informações válidas do novo orçamento, como nome do cliente, descrição, itens do orçamento, preços, quantidades e outros campos relevantes. 3- Clicar no botão de cadastro de orçamento. 4- Verificar se o orçamento é cadastrado com sucesso no sistema e exibido corretamente na lista de orçamentos.|
@@ -146,7 +146,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | Ações esperadas | 1- Acessar a tela de cadastro de orçamento. 2- Deixar em branco um ou mais campos obrigatórios do novo orçamento, como nome do cliente, descrição ou preços. 3- Clicar no botão de cadastro de orçamento. 3- Verificar se uma mensagem de erro é exibida indicando que as informações obrigatórias do orçamento não foram fornecidas. |
 | Resultado | Uma mensagem de erro é exibida indicando que as informações obrigatórias do orçamento não foram fornecidas. |
 | Telas | |
-| Telas | FAlTA TELA PREENCHIDA INFORMANDO QUE FALTAM INFORMAÇÕES A SEREM PREENCHIDAS |
+| Telas | FAlTA TELA PREENCHIDA INFORMANDO QUE FALTAM INFORMAÇÕES A SEREM FORNECIDAS |
 <br>
 
 | Teste 04    |  Exclusão bem-sucedida de um orçamento                                                                  | 
