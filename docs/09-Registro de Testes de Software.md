@@ -6,7 +6,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 
 # Avaliação 
 
-| Caso de teste 01     |  CT 01 - Efeutar Login                                                                   | 
+| Caso de teste 01     |  CT 01 - Efetuar Login                                                                   | 
 | ------- | ------------------------------------------------------------------------------------------------------------ | 
 | Objetivo do teste | Verificar se a tela de login do sistema permite que usuários autorizados acessem o sistema e que usuários não autorizados sejam impedidos de acessar o sistema. | 
 | Escopo | Testar a funcionalidade da tela de login para usuários válidos e inválidos. |
