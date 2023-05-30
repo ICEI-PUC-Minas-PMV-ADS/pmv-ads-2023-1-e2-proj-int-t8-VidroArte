@@ -153,7 +153,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | ------- | ------------------------------------------------------------------------------------------------------------ | 
 | Descrição | Tentativa de exclusão bem-sucedida de um orçamento existente. | 
 | Ações esperadas | 1- Acessar a tela de lista de orçamentos. 2- Selecionar o orçamento a ser excluído. 3- Clicar no botão de exclusão de orçamento. 4- Confirmar a exclusão quando solicitado. 5- Verificar se o orçamento é removido com sucesso do sistema e não é mais exibido na lista de orçamentos. |
-| Resultado | Uma mensagem de erro é exibida indicando que o campo obrigatório não foi preenchido. |
+| Resultado | O orçamento é excluído com sucesso do sistema e não é mais exibido na lista de orçamentos. |
 | Telas | |
 | Telas | FAlTA TELA DE EDIÇÃO DE ORÇAMENTO |
 <br>
