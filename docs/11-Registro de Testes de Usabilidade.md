@@ -38,15 +38,21 @@ Os usuários conseguiram realizar o login no sistema sem dificuldade. Alguns com
 
 - Cadastro de Novos Clientes:
 
+Os usuários não relataram dificuldades no cadastramento de novos clientes, inclusive informaram que acharam o processo de cadastro fácil de entender e de seguir. No entanto, alguns usuários sugeriram que seria interessante um campo para adicionar notas aos clientes.
 
 - Busca de clientes já cadastrados, atualização de dados de clientes já cadastrados e remoção de clientes já cadastrados:
 
+Os usuários relataram que tiveram facilidade em acessar a lista de clientes e realizar as alterações necessárias, tais quais, atualização e/ou remoção de clientes. No entanto, alguns usuários sugeriram que seria útil ter mais opções de filtro na lista de clientes.
 
 - Cadastro de pedido do cliente:
 
+Todos os usuários conseguiram cadastrar novos pedidos sem maiores dificuldades. Eles acharam o processo de cadastro fácl de entender e de serguir. Alguns desses usuários inclusive acharam muito interessante a existência de um campo para anotação de observações referente ao pedido.
 
-- Calcular pedido do cliente:
+- Calcular pedido/orçamento do cliente:
 
+Os usuários conseguiram calcular o pedido do cliente, alguns com uma certa dificuldade, mas após as mensagens de erro que apareciam no momento do preenchimento, mesmo estes conseguiram realizar os preenchimentos necessários sem maiores problemas.
 
 - Calcular prazo de entrega do pedido do cliente:
--
+
+Os usuários conseguiram calcular o prazo de entrega 
+do pedido sem dificuldades. Eles acharam a funcionalidade útil e fácil de usar.
