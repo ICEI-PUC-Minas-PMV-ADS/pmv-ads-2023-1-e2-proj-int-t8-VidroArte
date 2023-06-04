@@ -14,14 +14,7 @@ Os testes de usabilidade foram realizados com o objetivo de avaliar a facilidade
 
 **Metodologia:**
 
-Os testes foram realizados com um grupo de 07 usuários, que representavam o público-alvo do sistema e que foram convidados a utilizá-lo em um ambiente controlado. Os usuários foram solicitados a realizar uma série de tarefas no sistema, enquanto observávamos e registrávamos suas ações, bem como as suas opiniões e comentários. Cada teste está documentado abaixo, constando as seguintes informações: 
-
-- Data do teste
-- Tarefa a ser realizada
-- Ações executadas pelo usuário
-- Tempo para concluir a tarefa
-- Dificuldades encontradas
-- Comentários e sugestões
+Os testes foram realizados com um grupo de 07 usuários, que representavam o público-alvo do sistema e que foram convidados a utilizá-lo em um ambiente controlado. Os usuários foram solicitados a realizar uma série de tarefas no sistema, enquanto observávamos e registrávamos suas ações, bem como as suas opiniões e comentários. Cada teste está documentado abaixo.
 
 **Resultados:**
 
@@ -29,15 +22,15 @@ Os testes demonstraram que o sistema é eficaz, uma vez que os usuários consegu
 
 - Teste de Cadastro de usuário: 
 
-Todos os usuários cadastraram novos usuários com sucesso e sem maiores dificuldades. Alguns usuários deram a sugestão de que o processo de cadastro poderia ser mais simples, mas a funcionalidade foi considerada fácil de usar.
+Todos os usuários cadastraram novos usuários com sucesso e sem maiores dificuldades. Alguns usuários deram a sugestão de que seria interessante adicionar uma confirmação de senha para garantir que o usuário digitou a senha corretamente.
 
 - Teste de Login de Usuário:
 
-Os usuários conseguiram realizar o login no sistema sem dificuldade. Alguns comentaram que o processo de login é ágil e fácil. 
+Os usuários conseguiram realizar o login no sistema sem dificuldade. Alguns comentaram que seria útil adicionar uma opção "Lembrar-me" para facilitar o acesso em dispositivos frequentemente utilizados.
 
 - Cadastro de Novos Clientes:
 
-Os usuários não relataram dificuldades no cadastramento de novos clientes, inclusive informaram que acharam o processo de cadastro fácil de entender e de seguir. No entanto, alguns usuários sugeriram que seria interessante um campo para adicionar notas aos clientes.
+Os usuários não relataram dificuldades no cadastramento de novos clientes, os campos obrigatórios foram bem destacados. No entanto, alguns usuários sugeriram que seria interessante um campo para adicionar notas aos clientes.
 
 - Busca de clientes já cadastrados, atualização de dados de clientes já cadastrados e remoção de clientes já cadastrados:
 
@@ -47,11 +40,14 @@ Os usuários relataram que tiveram facilidade em acessar a lista de clientes e r
 
 Todos os usuários conseguiram cadastrar novos pedidos sem maiores dificuldades. Eles acharam o processo de cadastro fácl de entender e de serguir. Alguns desses usuários inclusive acharam muito interessante a existência de um campo para anotação de observações referente ao pedido.
 
-- Calcular pedido/orçamento do cliente:
+- Cadastro de orçamentos:
 
-Os usuários conseguiram calcular o pedido do cliente, alguns com uma certa dificuldade, mas após as mensagens de erro que apareciam no momento do preenchimento, mesmo estes conseguiram realizar os preenchimentos necessários sem maiores problemas.
+Os usuários conseguiram cadastar os orçamentos, alguns com uma certa dificuldade, mas após as mensagens de erro que apareciam no momento do preenchimento, mesmo estes conseguiram realizar os preenchimentos necessários sem maiores problemas.
 
-- Calcular prazo de entrega do pedido do cliente:
+- Consulta de Pedidos:
 
-Os usuários conseguiram calcular o prazo de entrega 
-do pedido sem dificuldades. Eles acharam a funcionalidade útil e fácil de usar.
+Os usuários tiveram facilidade em acessar a lista de pedidos, porém disseram que seria útil disponibilizar dicas ou instruções claras sobre como utilizar os filtros de pesquisa de forma mais eficaz.
+
+- Consulta de Orçamentos:
+
+Os usuários disseram que a tela de consulta de orçamentos é clara e as informações são bem organizadas. Seria interessante adicionar uma indicação visual para destacar os orçamentos que não foram fechados.
