@@ -157,3 +157,52 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | Telas | |
 | Telas | FAlTA TELA DE EDIÇÃO DE ORÇAMENTO |
 <br>
+
+| Caso de teste 06     |  CT-06 – Consultar Pedidos                                                                   | 
+| ------- | ------------------------------------------------------------------------------------------------------------ | 
+| Objetivo do teste | Verificar se a funcionalidade de consulta de pedidos exibe corretamente os pedidos existentes no sistema. | 
+| Escopo | Testar a página de consulta de pedidos do sistema. |
+| Ambiente de Teste | Sistema operacional Windows 10, navegador Google Chrome, banco de dados MySQL. |
+<br>
+
+| Teste 01     |  Consultar pedidos cadastrados                                                                  | 
+| ------- | ------------------------------------------------------------------------------------------------------------ | 
+| Descrição | Verificar se a página de consulta de pedidos exibe corretamente os pedidos cadastrados no sistema. | 
+| Ações esperadas | 1- Acessar a página de consulta de pedidos. 2- Verificar a lista de pedidos exibidos na tela. |
+| Resultado | A página exibe corretamente a lista de pedidos cadastrados no sistema. |
+| Telas | |
+| Telas | FALTA TELA DE CONSULTA DE PEDIDOS |
+<br>
+
+| Caso de teste 07     |  CT-07 – Consultar Orçamentos                                                                   | 
+| ------- | ------------------------------------------------------------------------------------------------------------ | 
+| Objetivo do teste | Verificar se a funcionalidade de consulta de orçamentos exibe corretamente os orçamentos existentes no sistema. | 
+| Escopo | Testar a página de consulta de orçamentos do sistema. |
+| Ambiente de Teste | Sistema operacional Windows 10, navegador Google Chrome, banco de dados MySQL. |
+<br>
+
+| Teste 01     |  Consultar orçamentos cadastrados                                                                  | 
+| ------- | ------------------------------------------------------------------------------------------------------------ | 
+| Descrição | Verificar se a página de consulta de orçamentos exibe corretamente os orçamentos cadastrados no sistema. | 
+| Ações esperadas | 1- Acessar a página de consulta de orçamentos. 2- Verificar a lista de orçamentos exibidos na tela. |
+| Resultado | A página exibe corretamente a lista de orçamentos cadastrados no sistema. |
+| Telas | |
+| Telas | FAlTA TELA DE CONSULTA DE ORÇAMENTOS |
+<br>
+
+| Caso de teste 08     |  CT-08 – Consultar Clientes                                                                   | 
+| ------- | ------------------------------------------------------------------------------------------------------------ | 
+| Objetivo do teste | Verificar se a funcionalidade de consulta de clientes exibe corretamente os clientes cadastrados no sistema. | 
+| Escopo | Testar a página de consulta de clientes do sistema. |
+| Ambiente de Teste | Sistema operacional Windows 10, navegador Google Chrome, banco de dados MySQL. |
+<br>
+
+| Teste 01     |  Consultar clientes cadastrados                                                                  | 
+| ------- | ------------------------------------------------------------------------------------------------------------ | 
+| Descrição | Verificar se a página de consulta de clientes exibe corretamente os clientes cadastrados no sistema. | 
+| Ações esperadas | 1- Acessar a página de consulta de clientes. 2- Verificar a lista de clientes exibidos na tela. |
+| Resultado | A página exibe corretamente a lista de clientes cadastrados no sistema. |
+| Telas | |
+| Telas | FAlTA TELA DE CONSULTA DE CLIENTES |
+<br>
+
