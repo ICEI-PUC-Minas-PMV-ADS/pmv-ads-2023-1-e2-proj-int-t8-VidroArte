@@ -12,7 +12,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 | **Caso de Teste** 	| **CT-01 – Cadastrar Novos Usuários** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-001 - O sistema deve permitir fazer cadastro de usuário para o vendedor. |
+|	Requisito Associado 	| RF-001 - O sistema deve permitir fazer cadastro de usuários. |
 | Objetivo do Teste 	| Verificar se o vendedor consegue se cadastrar como novo usuário no sistema. |
 | Passos 	| - Acessar a página de cadastro de usuário <br> - Preencher o formulário de cadastro com informações válidas (nome, e-mail, senha) <br> - Clicar no botão de "Cadastrar" |
 | Critério de Êxito | - O cadastro foi realizado com sucesso e o usuário é redirecionado para a página de login. |
@@ -28,14 +28,14 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-003 - O sistema deve permitir cadastrar pedidos. |
 | Objetivo do Teste 	| Verificar se o vendedor consegue cadastrar novos pedidos no sistema. |
-| Passos 	| - Acessar a página de cadastro de pedidos <br> - Preencher as informações do pedido, como cliente associado, produtos solicitados e quantidade desejada <br> - Clicar no botão de "Cadastrar" |
+| Passos 	| - Acessar a página de cadastro de pedidos <br> - Preencher as informações do pedido, como cliente associado, serviços solicitados e quantidade desejada <br> - Clicar no botão de "Cadastrar" |
 | Critério de Êxito | - O pedido foi cadastrado com sucesso e é armazenado no sistema. |
 
 | **Caso de Teste** 	| **CT-04 – Cadastrar Orçamentos** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-004 - O sistema deve permitir cadastrar orçamentos. |
 | Objetivo do Teste 	| Verificar se o vendedor consegue cadastrar novos orçamentos no sistema. |
-| Passos 	| - Acessar a página de cadastro de orçamentos <br> - Preencher as informações do orçamento, como produtos oferecidos, preços e condições de pagamento <br> - Clicar no botão de "Cadastrar" |
+| Passos 	| - Acessar a página de cadastro de orçamentos <br> - Preencher as informações do orçamento, como serviços oferecidos, preços e condições de pagamento <br> - Clicar no botão de "Cadastrar" |
 | Critério de Êxito | - O orçamento foi cadastrado com sucesso e é armazenado no sistema. |
 
 | **Caso de Teste** 	| **CT-05 – Cadastrar Clientes** 	|
@@ -63,5 +63,5 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-008 - O sistema deve permitir consultar clientes. |
 | Objetivo do Teste 		| Verificar se o vendedor consegue consultar os clientes cadastrados no sistema. |
-| Passos 					| - Acessar a página de consulta de clientes <br> - Visualizar a lista de clientes cadastrados no sistema |
+| Passos 					| - Acessar a página de consulta de clientes <br> - Visualizar a lista de clientes cadastrados no sistema ou pesquisar um cliente específico |
 | Critério de Êxito 	| - Os clientes são exibidos corretamente na página de consulta. |
