@@ -162,10 +162,10 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | ------- | ------------------------------------------------------------------------------------------------------------ | 
 | Objetivo do teste | Verificar se a funcionalidade de consulta de pedidos exibe corretamente os pedidos existentes no sistema. | 
 | Escopo | Testar a página de consulta de pedidos do sistema. |
-| Ambiente de Teste | Sistema operacional Windows 10, navegador Google Chrome, banco de dados MySQL. |
+| Ambiente de Teste | Sistema operacional Windows 10, navegador Google Chrome, banco de dados Azure SQL Server. |
 <br>
 
-| Teste 01     |  Consultar pedidos cadastrados                                                                  | 
+| Teste 01     |  Consultar os pedidos cadastrados no sistema                                                                  | 
 | ------- | ------------------------------------------------------------------------------------------------------------ | 
 | Descrição | Verificar se a página de consulta de pedidos exibe corretamente os pedidos cadastrados no sistema. | 
 | Ações esperadas | 1- Acessar a página de consulta de pedidos. 2- Verificar a lista de pedidos exibidos na tela. |
@@ -178,7 +178,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | ------- | ------------------------------------------------------------------------------------------------------------ | 
 | Objetivo do teste | Verificar se a funcionalidade de consulta de orçamentos exibe corretamente os orçamentos existentes no sistema. | 
 | Escopo | Testar a página de consulta de orçamentos do sistema. |
-| Ambiente de Teste | Sistema operacional Windows 10, navegador Google Chrome, banco de dados MySQL. |
+| Ambiente de Teste | Sistema operacional Windows 10, navegador Google Chrome, banco de dados Azure SQL Server. |
 <br>
 
 | Teste 01     |  Consultar orçamentos cadastrados                                                                  | 
@@ -194,7 +194,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | ------- | ------------------------------------------------------------------------------------------------------------ | 
 | Objetivo do teste | Verificar se a funcionalidade de consulta de clientes exibe corretamente os clientes cadastrados no sistema. | 
 | Escopo | Testar a página de consulta de clientes do sistema. |
-| Ambiente de Teste | Sistema operacional Windows 10, navegador Google Chrome, banco de dados MySQL. |
+| Ambiente de Teste | Sistema operacional Windows 10, navegador Google Chrome, banco de dados Azure SQL Server. |
 <br>
 
 | Teste 01     |  Consultar clientes cadastrados                                                                  | 
@@ -204,5 +204,14 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | Resultado | A página exibe corretamente a lista de clientes cadastrados no sistema. |
 | Telas | |
 | Telas | FAlTA TELA DE CONSULTA DE CLIENTES |
+<br>
+
+| Teste 02     |  Pesquisar clientes por nome e verificar se os resultados correspondem aos critérios de busca                                                                  | 
+| ------- | ------------------------------------------------------------------------------------------------------------ | 
+| Descrição | Verificar se os resultados exibidos correspondem ao critério de busca | 
+| Ações esperadas | 1- Acessar a tela de consulta de clientes. 2- Digitar o nome do cliente na barra de pesquisa. 3- Clicar no botão de busca. 4- Verificar se os resultados exibidos correspondem ao critério de busca |
+| Resultado | A página exibe corretamente a lista de clientes pesquisados. |
+| Telas | |
+| Telas | FAlTA TELA DE CONSULTA DE CLIENTES PESQUISADOS |
 <br>
 
