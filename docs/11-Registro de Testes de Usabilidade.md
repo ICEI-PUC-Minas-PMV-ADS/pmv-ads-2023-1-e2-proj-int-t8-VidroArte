@@ -4,25 +4,24 @@
 
 Os testes de usabilidade foram realizados com o objetivo de avaliar a facilidade de uso do sistema em relação às suas principais funcionalidades, tais como:
 
-- cadastro de usuário/vendedor
-- longin de usuário/vendedor   
-- cadastro de novos clientes   
+- Cadastro de usuário/vendedor
+- Login de usuário/vendedor   
+- Cadastro de novos clientes   
 - Busca de clientes já cadastrados, atualização de dados de clientes já cadastrados e remoção de clientes já cadastrados   
 - Cadastro de pedido do cliente
-- Calcular pedido do cliente   
-- Calcular prazo de entrega do pedido do cliente
+- Cadastro de orçamentos   
+- Consulta de pedidos e orçamentos
 
 **Metodologia:**
 
-Os testes foram realizados com um grupo de 07 usuários, que representavam o público-alvo do sistema e que foram convidados a utilizá-lo em um ambiente controlado. Os usuários foram solicitados a realizar uma série de tarefas no sistema, enquanto observávamos e registrávamos suas ações, bem como as suas opiniões e comentários. Cada teste foi documentado em um formulário, constando das seguintes informações: 
+Os testes foram realizados com um grupo de 07 usuários, que representavam o público-alvo do sistema e que foram convidados a utilizá-lo em um ambiente controlado. Os usuários foram solicitados a realizar uma série de tarefas no sistema, enquanto observávamos e registrávamos suas ações, bem como as suas opiniões e comentários. Cada teste está documentado abaixo, constando as seguintes informações: 
 
-- nome do usário
-- data do teste
-- tarefa a ser realizada
-- ações executadas pelo usuário
-- tempo para concluir a tarefa
-- dificuldades encontradas
-- comentários e sugestões
+- Data do teste
+- Tarefa a ser realizada
+- Ações executadas pelo usuário
+- Tempo para concluir a tarefa
+- Dificuldades encontradas
+- Comentários e sugestões
 
 **Resultados:**
 
