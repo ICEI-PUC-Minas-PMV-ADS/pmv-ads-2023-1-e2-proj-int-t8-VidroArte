@@ -171,7 +171,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | Ações esperadas | 1- Acessar a página de consulta de pedidos. 2- Verificar a lista de pedidos exibidos na tela. |
 | Resultado | A página exibe corretamente a lista de pedidos cadastrados no sistema. |
 | Telas | |
-| Telas | ![Consulta de Pedidos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-VidroArte/blob/main/docs/img/consulta_clientes.png) |
+| Telas | ![Consulta de Pedidos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-VidroArte/blob/main/docs/img/Captura%20de%20tela%202023-06-04%20232037.png) |
 <br>
 
 | Caso de teste 07     |  CT-07 – Consultar Orçamentos                                                                   | 
