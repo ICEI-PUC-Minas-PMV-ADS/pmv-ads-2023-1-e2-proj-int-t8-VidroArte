@@ -9,85 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VidroArte
 build_property.RootNamespace = VidroArte
-build_property.ProjectDir = C:\xampp\htdocs\vidroarte\VidroArte\
+build_property.ProjectDir = C:\xampp\htdocs\vidroarte\vidroarte\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\xampp\htdocs\vidroarte\VidroArte
+build_property.MSBuildProjectDirectory = C:\xampp\htdocs\vidroarte\vidroarte
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/xampp/htdocs/vidroarte/VidroArte/Pages/consultar_cliente.cshtml]
+[C:/xampp/htdocs/VidroArte/VidroArte/Pages/consultar_cliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29uc3VsdGFyX2NsaWVudGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/xampp/htdocs/vidroarte/VidroArte/Pages/consultar_fornecedor.cshtml]
+[C:/xampp/htdocs/VidroArte/VidroArte/Pages/consultar_fornecedor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29uc3VsdGFyX2Zvcm5lY2Vkb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/xampp/htdocs/vidroarte/VidroArte/Pages/consultar_funcionario.cshtml]
+[C:/xampp/htdocs/VidroArte/VidroArte/Pages/consultar_funcionario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29uc3VsdGFyX2Z1bmNpb25hcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/xampp/htdocs/vidroarte/VidroArte/Pages/consultar_materiais.cshtml]
+[C:/xampp/htdocs/VidroArte/VidroArte/Pages/consultar_materiais.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29uc3VsdGFyX21hdGVyaWFpcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/xampp/htdocs/vidroarte/VidroArte/Pages/consultar_pedido.cshtml]
+[C:/xampp/htdocs/VidroArte/VidroArte/Pages/consultar_pedido.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29uc3VsdGFyX3BlZGlkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/xampp/htdocs/vidroarte/VidroArte/Pages/consultar_servico.cshtml]
+[C:/xampp/htdocs/VidroArte/VidroArte/Pages/consultar_servico.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29uc3VsdGFyX3NlcnZpY28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/xampp/htdocs/vidroarte/VidroArte/Pages/Index.cshtml]
+[C:/xampp/htdocs/VidroArte/VidroArte/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/xampp/htdocs/vidroarte/VidroArte/Pages/Inicio.cshtml]
+[C:/xampp/htdocs/VidroArte/VidroArte/Pages/Inicio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5pY2lvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/xampp/htdocs/vidroarte/VidroArte/Pages/inserir_cliente.cshtml]
+[C:/xampp/htdocs/VidroArte/VidroArte/Pages/inserir_cliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5zZXJpcl9jbGllbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/xampp/htdocs/vidroarte/VidroArte/Pages/inserir_fornecedor.cshtml]
+[C:/xampp/htdocs/VidroArte/VidroArte/Pages/inserir_fornecedor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5zZXJpcl9mb3JuZWNlZG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/xampp/htdocs/vidroarte/VidroArte/Pages/inserir_funcionario.cshtml]
+[C:/xampp/htdocs/VidroArte/VidroArte/Pages/inserir_funcionario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5zZXJpcl9mdW5jaW9uYXJpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/xampp/htdocs/vidroarte/VidroArte/Pages/inserir_materiais.cshtml]
+[C:/xampp/htdocs/VidroArte/VidroArte/Pages/inserir_materiais.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5zZXJpcl9tYXRlcmlhaXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/xampp/htdocs/vidroarte/VidroArte/Pages/inserir_orcamento.cshtml]
+[C:/xampp/htdocs/VidroArte/VidroArte/Pages/inserir_orcamento.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5zZXJpcl9vcmNhbWVudG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/xampp/htdocs/vidroarte/VidroArte/Pages/inserir_pedido.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5zZXJpcl9wZWRpZG8uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/xampp/htdocs/vidroarte/VidroArte/Pages/inserir_servico.cshtml]
+[C:/xampp/htdocs/VidroArte/VidroArte/Pages/inserir_servico.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5zZXJpcl9zZXJ2aWNvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/xampp/htdocs/vidroarte/VidroArte/Pages/mensalista.cshtml]
+[C:/xampp/htdocs/VidroArte/VidroArte/Pages/mensalista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbWVuc2FsaXN0YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/xampp/htdocs/vidroarte/VidroArte/Pages/Shared/_Layout.cshtml]
+[C:/xampp/htdocs/VidroArte/VidroArte/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/xampp/htdocs/vidroarte/VidroArte/Pages/_ViewImports.cshtml]
+[C:/xampp/htdocs/VidroArte/VidroArte/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/xampp/htdocs/vidroarte/VidroArte/Pages/_ViewStartss.cshtml]
+[C:/xampp/htdocs/VidroArte/VidroArte/Pages/_ViewStartss.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydHNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

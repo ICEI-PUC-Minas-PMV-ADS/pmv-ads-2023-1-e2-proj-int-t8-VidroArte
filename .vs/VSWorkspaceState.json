@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\WebApplication2"
+    "\\VidroArte",
+    "\\VidroArte\\Pages",
+    "\\VidroArte\\wwwroot"
   ],
-  "SelectedNode": "\\WebApplication2\\vidroarte.sln",
+  "SelectedNode": "\\VidroArte\\Pages\\consultar_pedido.cshtml.cs",
   "PreviewInSolutionExplorer": false
 }

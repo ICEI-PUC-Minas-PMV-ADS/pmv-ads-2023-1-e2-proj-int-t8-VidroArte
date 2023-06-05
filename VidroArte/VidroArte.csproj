@@ -14,10 +14,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Pages\inserir_pedido.cshtml.cs" />
     <Compile Remove="Pages\JavaScriptSerializer.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="Pages\inserir_pedido.cshtml" />
     <Content Remove="wwwroot\js\autenticacao.js" />
   </ItemGroup>
 

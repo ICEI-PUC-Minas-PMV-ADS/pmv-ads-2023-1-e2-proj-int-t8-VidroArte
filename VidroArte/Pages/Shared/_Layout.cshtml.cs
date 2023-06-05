@@ -18,21 +18,20 @@ namespace VidroArte.Pages.Shared
             {
                 bemvindomensagem = $"Bem-vindo, {nomeUsuario}.";
 
-                string connectionString = "Data Source=LAPTOP-B2EBJ1MT;Initial Catalog=vidroarte;Integrated Security=True";
-                //string connectionString = "Data Source=vidroarte.database.windows.net;Initial Catalog=vidroarte;User ID=vidroarte;Password='Jato@12345'";
-                SqlConnection conexao = new(connectionString);
-                conexao.Open();
-                string sql = "SELECT COUNT(*) FROM cliente WHERE nome = @nome and cpf_cnpj is not null";
-                SqlCommand comando = new SqlCommand(sql, conexao);
-                comando.Parameters.AddWithValue("@nome", nomeUsuario);
-
-                int resultado = (int)comando.ExecuteScalar();
-
-                if (resultado == 0)
+                using (SqlConnection conexao = DatabaseConnection.GetConnection())
                 {
-                    completarcadastro = "complete seu cadastro";
+                    conexao.Open();
+                    string sql = "SELECT COUNT(*) FROM cliente WHERE nome = @nome and cpf_cnpj is not null";
+                    SqlCommand comando = new SqlCommand(sql, conexao);
+                    comando.Parameters.AddWithValue("@nome", nomeUsuario);
+                    int resultado = (int)comando.ExecuteScalar();
+
+                    if (resultado == 0)
+                    {
+                        completarcadastro = "complete seu cadastro";
+                    }
                 }
-            }
+        }
         }
 
         public void OnPost()
