@@ -171,7 +171,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | Ações esperadas | 1- Acessar a página de consulta de pedidos. 2- Verificar a lista de pedidos exibidos na tela. |
 | Resultado | A página exibe corretamente a lista de pedidos cadastrados no sistema. |
 | Telas | |
-| Telas | FALTA TELA DE CONSULTA DE PEDIDOS |
+| Telas | ![Consulta de Pedidos](img/consulta_pedidos.png) |
 <br>
 
 | Caso de teste 07     |  CT-07 – Consultar Orçamentos                                                                   | 
