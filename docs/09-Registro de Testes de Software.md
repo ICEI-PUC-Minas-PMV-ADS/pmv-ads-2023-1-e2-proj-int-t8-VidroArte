@@ -203,7 +203,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | Ações esperadas | 1- Acessar a página de consulta de clientes. 2- Verificar a lista de clientes exibidos na tela. |
 | Resultado | A página exibe corretamente a lista de clientes cadastrados no sistema. |
 | Telas | |
-| Telas | FAlTA TELA DE CONSULTA DE CLIENTES |
+| Telas | ![Consulta de Clientes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-VidroArte/blob/main/docs/img/consulta_clientes.png) |
 <br>
 
 | Teste 02     |  Pesquisar clientes por nome e verificar se os resultados correspondem aos critérios de busca                                                                  | 
@@ -212,6 +212,6 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | Ações esperadas | 1- Acessar a tela de consulta de clientes. 2- Digitar o nome do cliente na barra de pesquisa. 3- Clicar no botão de busca. 4- Verificar se os resultados exibidos correspondem ao critério de busca |
 | Resultado | A página exibe corretamente a lista de clientes pesquisados. |
 | Telas | |
-| Telas | FAlTA TELA DE CONSULTA DE CLIENTES PESQUISADOS |
+| Telas | ![Consulta de Clientes Pesquisados]() |
 <br>
 
