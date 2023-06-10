@@ -1,5 +1,5 @@
 ﻿@page
-@model VidroArte.Pages.consultar_pedidoModel
+@model VidroArte.Pages.consultar_orcamentoModel
 @{
     ViewData["Title"] = "Consulta de Orçamento";
 }
@@ -41,14 +41,14 @@
 <body>
 
     <div class="area_cadastro">
-        <h3><span class="material-symbols-outlined">person_add</span> CONSULTA DE PEDIDOS</h3><br /><br /><br />
+        <h3><span class="material-symbols-outlined">person_add</span> CONSULTA DE ORÇAMENTO</h3><br /><br /><br />
         <table id="table"
-                data-toggle="table"
-                data-search="true"
-                data-filter-control="true"
-                data-show-export="true"
-                data-click-to-select="true"
-                data-toolbar="#toolbar">
+               data-toggle="table"
+               data-search="true"
+               data-filter-control="true"
+               data-show-export="true"
+               data-click-to-select="true"
+               data-toolbar="#toolbar">
             <thead>
                 <tr>
                     <th data-field="RazaoSocial" data-filter-control="select" data-sortable="true">RazaoSocial</th>
@@ -77,7 +77,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (var item in Model.ListClients)
+                @foreach (var item in Model.ListClients1)
                 {
                     <tr>
                         <td>@item.RazaoSocial</td>
@@ -111,3 +111,4 @@
 
     </div>
 </body>
+

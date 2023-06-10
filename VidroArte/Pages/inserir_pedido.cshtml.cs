@@ -6,17 +6,14 @@ namespace VidroArte.Pages
 {
     public class inserir_pedidoModel : PageModel
     {
-
         public void OnPost(string salvar_pedido)
         {
-
             using (SqlConnection conexao = DatabaseConnection.GetConnection())
             {
-
                 if (!string.IsNullOrEmpty(salvar_pedido))
                 {
                     string total_pedido = Request.Form["total_pedido"];
-                    string area = Request.Form["area"];
+                    string area = Request.Form["area_total"];
                     string num_pedido = Request.Form["num_pedido"];
                     string cliente = Request.Form["cliente"];
                     string pedido_cliente = Request.Form["pedido_cliente"];
@@ -52,21 +49,18 @@ namespace VidroArte.Pages
                         comando.Parameters.AddWithValue("@comprovante", comprovante);
                         comando.Parameters.AddWithValue("@obs", obs);
 
-                        string resultado = (string)comando.ExecuteScalar();
-
-
+                        comando.ExecuteNonQuery();
                     }
                     catch (Exception ex)
                     {
+                        // Tratar o erro, se necessário
                     }
                     finally
                     {
                         conexao.Close();
                     }
-
                 }
             }
-
         }
     }
 }

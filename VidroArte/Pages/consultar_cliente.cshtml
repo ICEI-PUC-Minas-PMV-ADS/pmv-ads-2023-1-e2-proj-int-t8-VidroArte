@@ -1,10 +1,10 @@
 ﻿@page
-@model VidroArte.Pages.Shared._LayoutModel
+@model VidroArte.Pages.consultar_clienteModel
 @{
-    Layout = "_Layout";
+    ViewData["Title"] = "Consulta de Orçamento";
 }
 @{
-    ViewData["Title"] = "Consulta de Pedidos";
+    Layout = "_Layout";
 }
 <head>
 
@@ -60,14 +60,62 @@
                data-toolbar="#toolbar">
             <thead>
                 <tr>
-                    <th data-field="nome" data-filter-control="select" data-sortable="true">Nome</th>
-                    <th data-field="cpf" data-filter-control="select" data-sortable="true">CPF</th>
-                    <th data-field="email" data-filter-control="select" data-sortable="true">E-mail</th>
-                    <th data-field="whatsapp" data-filter-control="select" data-sortable="true">Whatsapp</th>
-                    <th data-field="senha" data-filter-control="select" data-sortable="true">Senha</th>
+                    <th data-field="RazaoSocial" data-filter-control="select" data-sortable="true">RazaoSocial</th>
+                    <th data-field="Nome" data-filter-control="select" data-sortable="true">Nome</th>
+                    <th data-field="CPF_CNPJ" data-filter-control="select" data-sortable="true">CPF_CNPJ</th>
+                    <th data-field="InscEstadual" data-filter-control="select" data-sortable="true">InscEstadual</th>
+                    <th data-field="Responsavel" data-filter-control="select" data-sortable="true">Responsavel</th>
+                    <th data-field="RG" data-filter-control="select" data-sortable="true">RG</th>
+                    <th data-field="DtNascimento" data-filter-control="select" data-sortable="true">DtNascimento</th>
+                    <th data-field="date" data-filter-control="select" data-sortable="true">Date</th>
+                    <th data-field="Email" data-filter-control="select" data-sortable="true">Email</th>
+                    <th data-field="Telefone" data-filter-control="select" data-sortable="true">Telefone</th>
+                    <th data-field="CEP" data-filter-control="select" data-sortable="true">CEP</th>
+                    <th data-field="Rua" data-filter-control="select" data-sortable="true">Rua</th>
+                    <th data-field="Numero" data-filter-control="select" data-sortable="true">Numero</th>
+                    <th data-field="Complemento" data-filter-control="select" data-sortable="true">Complemento</th>
+                    <th data-field="Bairro" data-filter-control="select" data-sortable="true">Bairro</th>
+                    <th data-field="Cidade" data-filter-control="select" data-sortable="true">Cidade</th>
+                    <th data-field="UF" data-filter-control="select" data-sortable="true">UF</th>
+                    <th data-field="Usuario" data-filter-control="select" data-sortable="true">Usuario</th>
+                    <th data-field="Banco" data-filter-control="select" data-sortable="true">Banco</th>
+                    <th data-field="Agencia" data-filter-control="select" data-sortable="true">Agencia</th>
+                    <th data-field="Conta" data-filter-control="select" data-sortable="true">Conta</th>
+                    <th data-field="Digito" data-filter-control="select" data-sortable="true">Digito</th>
+                    <th data-field="TipoConta" data-filter-control="select" data-sortable="true">TipoConta</th>
                 </tr>
             </thead>
-            <tbody id="saida_clientes"></tbody>
+            <tbody>
+                @foreach (var item in Model.ListClients2)
+                {
+                    <tr>
+                        <td>@item.RazaoSocial</td>
+                        <td>@item.Nome</td>
+                        <td>@item.CPF_CNPJ</td>
+                        <td>@item.InscEstadual</td>
+                        <td>@item.Responsavel</td>
+                        <td>@item.RG</td>
+                        <td>@item.DtNascimento</td>
+                        <td>@item.Email</td>
+                        <td>@item.Telefone</td>
+                        <td>@item.CEP</td>
+                        <td>@item.Rua</td>
+                        <td>@item.Numero</td>
+                        <td>@item.Complemento</td>
+                        <td>@item.Bairro</td>
+                        <td>@item.Cidade</td>
+                        <td>@item.UF</td>
+                        <td>@item.Usuario</td>
+                        <td>@item.Banco</td>
+                        <td>@item.Agencia</td>
+                        <td>@item.Conta</td>
+                        <td>@item.Digito</td>
+                        <td>@item.TipoConta</td>
+                    </tr>
+
+                }
+
+            </tbody>
         </table>
 
     </div>

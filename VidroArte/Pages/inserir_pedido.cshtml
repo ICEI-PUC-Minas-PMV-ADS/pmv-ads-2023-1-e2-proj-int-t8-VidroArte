@@ -1,5 +1,6 @@
 ﻿@page
-@model VidroArte.Pages.Shared._LayoutModel
+@using Microsoft.AspNetCore.Http
+@using System.Data.SqlClient
 @{
     ViewData["Title"] = "Inserir novo pedido";
 }
@@ -20,7 +21,7 @@
 
 </head>
 <body>
-    <form>
+    <form method="post">
         <div class="area_cadastro">
             <h3><span class="material-symbols-outlined">person_add</span> INSERIR NOVO PEDIDO</h3>
             <br /><br />
@@ -58,7 +59,7 @@
                 <input type="text" id="debito" name="debito" size="15" onblur="funcaodebito()">&emsp;
                 <label><i class="helper"></i>Dinheiro:</label>
                 <input type="text" id="dinheiro" name="dinheiro" size="15">
-<p>
+            <p>
                 <br />
             <p>
                 <label><i class="helper"></i>Comprovante:</label>
@@ -71,7 +72,7 @@
             <p>
                 <br /><br />
             <p align="center">
-                <button id="salvar" name="salvar" class="btn btn-primary"> Salvar Pedido </button>
+                <button id="salvar" name="salvar" class="btn btn-primary" asp-page-handler="salvar_pedido">  Salvar Pedido </button>
                 <button id="imprimir" name="imprimir" class="btn btn-primary"> Imprimir Pedido </button>
                 <button id="cancelar" name="cancelar" class="btn btn-primary" onclick="cancelar()"> Cancelar </button>
 

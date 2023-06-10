@@ -34,12 +34,16 @@ namespace VidroArte.Pages.Shared
         }
         }
 
-        public void OnPost()
+        public void OnPost(string logout)
         {
-            HttpContext.Session.Clear();
-            HttpContext.Response.Redirect("/Index");
+            {
+                if (!string.IsNullOrEmpty(logout))
+                {
+                    HttpContext.Session.Clear();
+                    HttpContext.Response.Redirect("/Index");
+                }
+            }
         }
-
     }
 }
 

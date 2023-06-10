@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29uc3VsdGFyX21hdGVyaWFpcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/xampp/htdocs/vidroarte/vidroarte/Pages/consultar_orcamento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29uc3VsdGFyX29yY2FtZW50by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/xampp/htdocs/vidroarte/vidroarte/Pages/consultar_pedido.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29uc3VsdGFyX3BlZGlkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -66,6 +70,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/xampp/htdocs/vidroarte/vidroarte/Pages/inserir_orcamento.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5zZXJpcl9vcmNhbWVudG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/xampp/htdocs/vidroarte/vidroarte/Pages/inserir_pedido.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5zZXJpcl9wZWRpZG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/xampp/htdocs/vidroarte/vidroarte/Pages/inserir_servico.cshtml]
